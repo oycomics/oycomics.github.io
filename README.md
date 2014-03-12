@@ -7,7 +7,7 @@
 
 ##Copyright
 
-All "Oy" comics are &copy; 2001 - 2014 Danny Burleson.
+All comic images and related content &copy; 2001 - 2014 Danny Burleson.
 
 ##Site Code
 
