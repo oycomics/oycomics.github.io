@@ -32,19 +32,19 @@ layout: nil
     </url>
   {% endfor %}
 <url>
-<loc>http://oycomics.com/about/</loc>
+<loc>{{ site.url }}/about/</loc>
 <lastmod>2014-03-11T12:35:53-07:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.3</priority>
 </url>
 <url>
-<loc>http://oycomics.com/archive/</loc>
+<loc>{{ site.url }}/archive/</loc>
 <lastmod>2014-03-11T12:35:53-07:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.3</priority>
 </url>
 <url>
-<loc>http://oycomics.com/privacy/</loc>
+<loc>{{ site.url }}/privacy/</loc>
 <lastmod>2014-03-11T15:45:53-07:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.3</priority>
