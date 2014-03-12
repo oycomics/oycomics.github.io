@@ -11,7 +11,7 @@
 	date: YYYY-MM-DD 00:00:47
 	image: "IMAGE_NAME.png"
 	---
-	![Sunday Comic 001](http://oycomics.com/comics/IMAGE_NAME.png)
+	![ALT TEXT]({{ site.url }}/comics/IMAGE_NAME.png)
 
 ##DAILY MARKDOWN
 	---
@@ -20,4 +20,4 @@
 	date: YYYY-MM-DD 00:00:47
 	image: "IMAGE_NAME.png"
 	---
-	![Daily Comic 001](http://oycomics.com/comics/IMAGE_NAME.png)
+	![ALT TEXT]({{ site.url }}/comics/IMAGE_NAME.png)
