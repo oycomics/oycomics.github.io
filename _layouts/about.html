@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+{% include head.html %}
+<meta property="og:image:width" content="2048">
+<meta property="og:image:height" content="2048">
+<meta name="twitter:url" content="http://oycomics.com/about/">
+<meta property="og:url" content="http://oycomics.com/about/">
+</head>
+<body>
+<div class="site">
+{% include title.html %}
+<div class="content">
+	{{ content }}
+</div>
+{% include nav.html %}
+{% include footer.html %}
+</div>
+</body>
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+{% include head.html %}
+<meta property="og:image:width" content="2048">
+<meta property="og:image:height" content="637">
+<meta name="twitter:url" content="http://oycomics.com{{ page.url }}/">
+<meta property="og:url" content="http://oycomics.com{{ page.url }}/">
+</head>
+<body>
+<div class="site">
+<div class="comic daily">
+{% include comic_nav.html %}
+{{ content }}
+</div>
+{% include copy_paste_share.html %}
+{% include title.html %}
+{% include nav.html %}
+{% include footer.html %}
+</div>
+</body>
+</html>

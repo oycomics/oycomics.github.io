@@ -1,0 +1,12 @@
+---
+layout: archive
+title: Archive
+---
+<div class="archive">
+  <h2>Comic Archive</h2>
+  <ul class="posts_list">
+    {% for post in site.posts %}
+    <li><a href="{{ post.url }}" class='{{ post.date | date: "%A" }}-archive'><span>Today's Comic!</span>{{ post.date | date: "%x" }} - {{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+</div>

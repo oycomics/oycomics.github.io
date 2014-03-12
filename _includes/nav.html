@@ -1,0 +1,15 @@
+<div class="nav">
+	{% for post in site.posts limit:1 %}
+	<a class="nav_item todays_comic" href="{{ post.url }}">Today's</a>
+	{% endfor %}
+	<a class="nav_item first_comic_link" href="/">First</a>
+	<a class="nav_item archive_link" href="/archive">Archive</a>
+	
+	<a class="nav_item about" href="/about">About</a>	
+	<a class="nav_item blog" href="http://oycomicsetc.com" target="_blank">Blog</a>
+	<a class="nav_item rss" href="http://feeds.feedburner.com/oy" target="_blank">RSS</a>
+	
+	<a class="nav_item googleplus" href="https://plus.google.com/+Oycomics" target="_blank">Google+</a>
+	<a class="nav_item twitter" href="https://twitter.com/oycomics" target="_blank">Twitter</a>
+	<a class="nav_item facebook" href="https://www.facebook.com/oycomics" target="_blank">Facebook</a>
+</div>

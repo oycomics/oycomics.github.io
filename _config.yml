@@ -1,0 +1,10 @@
+name: Oy(TM) a daily comic
+markdown: redcarpet
+pygments: true
+permalink: :title
+future: false
+paginate: 1
+url: http://oycomics.com
+description: Oy chronicles the daily adventures at a children's entertainment company . . . and the lives of the people who work there.
+author: Danny Burleson
+rss_post_limit: 10
