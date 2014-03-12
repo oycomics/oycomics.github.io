@@ -1,4 +1,4 @@
-#"WholeBuffalo" - a UI for Oy Comics&trade; sites
+#"WholeBuffalo" - an Oy Comics&trade; UI
 ###
 
 > A minimal GitHub Pages layout for publishing comics.
@@ -27,8 +27,8 @@ The support is . . . there is no support. This was all built from scratch for pu
 To get started you will need:
 
 * a GitHub Pages repository ( http://pages.github.com ). If you're reading this, I'll assume you're already familiar with GitHub.
-* Jeykll ( http://jekyllrb.com ). You'll want to familiarize yourself with their documentation ( http://jekyllrb.com/docs ). A lot of the magic that happens is thanks to this really simple-to-use.
-* Knowledge of writing in CSS, HTML, and Markdown.
+* Jeykll ( http://jekyllrb.com ). You'll want to familiarize yourself with their documentation ( http://jekyllrb.com/docs ). A lot of the magic that happens is thanks to this really simple-to-use "file-based CMS".
+* Knowledge of writing CSS, HTML, and Markdown.
 * Optional: CloudFlare ( https://www.cloudflare.com ). I use this for page/image caching, DDOS protection, and other services. Your mileage may vary.
 
 ###COMIC FORMAT EXAMPLES 
@@ -54,4 +54,3 @@ To get started you will need:
 	image: "IMAGE_NAME.png"
 	---
 	![ALT TEXT]({{ site.url }}/comics/IMAGE_NAME.png)
-
