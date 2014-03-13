@@ -11,6 +11,8 @@ All comic images and related content &copy; 2001 - 2014 Danny Burleson.
 
 You are free to copy and re-use the generic site code for your own purposes.
 
+The latest public release version can be obtained here: https://github.com/oycomics/oycomics.github.io/releases
+
 This does NOT include the right to re-use content that is unique to the actual comics and related content published via this UI, including:
 
 * The domain name - get your own!
