@@ -38,6 +38,9 @@ To get started you will need:
 ####FILENAME
 
 	YYYY-MM-DD-TITLE.md
+or
+
+	YYYY-MM-DD-TITLE.markdown
 
 ####SUNDAY MARKDOWN
 	---
