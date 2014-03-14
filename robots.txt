@@ -1,1 +1,3 @@
- 
+User-agent: *
+Disallow:
+Sitemap: http://oycomics.com/sitemap.xml
