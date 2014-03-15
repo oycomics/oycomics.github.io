@@ -35,6 +35,16 @@ To get started you will need:
 
 ###COMIC FORMAT EXAMPLES 
 
+####Comic Web Dimensions
+
+#####Daily
+
+	2048x637
+
+#####Sunday
+
+	2048x1422
+
 ####FILENAME
 
 	YYYY-MM-DD-TITLE.md
