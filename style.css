@@ -154,6 +154,9 @@ color: #474747;
 z-index:6;
 }
 
+a.nav_item:hover {
+color: #fff; 
+}
 
 a.nav_item.todays_comic {
 -webkit-border-top-left-radius: 10px;
