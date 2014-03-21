@@ -47,6 +47,10 @@ padding: 5px 0;
 margin: 0 auto;
 }
 
+.title_about p{
+line-height: 22px;
+}
+
 h2 {
 padding: 10px;
 }
