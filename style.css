@@ -40,6 +40,13 @@ h1.site_title a:hover {
 color: #000;
 }
 
+.title_about {
+text-align: center;
+width: 300px;
+padding: 5px 0;
+margin: 0 auto;
+}
+
 h2 {
 padding: 10px;
 }
