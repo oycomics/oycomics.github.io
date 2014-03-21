@@ -27,8 +27,8 @@ margin: 0 auto;
 
 h1.site_title a {
 display:block;
-font-size: 32px;
-font-size: 2rem;
+font-size: 28px;
+font-size: 1.75rem;
 }
 
 h1.site_title a span {
