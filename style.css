@@ -135,7 +135,8 @@ z-index:9;
 display: block;
 margin: 10px auto;
 padding: 15px 0;
-background: #fff;
+border-top: 1px solid #fff;
+border-bottom: 1px solid #fff;
 text-align: center;
 z-index:5;
 }
