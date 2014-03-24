@@ -275,6 +275,8 @@ text-align:center;
 }
 
 a.copyright {
+width: 300px;
+margin: 0 auto;
 display:block;
 z-index:11;
 }
