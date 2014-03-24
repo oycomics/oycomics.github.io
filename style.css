@@ -76,7 +76,6 @@ text-indent: 10px;
 display: block;
 padding: 5px 0;
 border: 1px solid #fff;
-
 }
 
 .archive ul.posts_list li a.Sunday-archive {
@@ -110,6 +109,12 @@ margin: 0 0 10px 0;
 font-size: 20px;
 font-size: 1.25rem;
 text-transform: uppercase;
+}
+
+.archive ul.posts_list li a:hover,
+.archive ul.posts_list li:first-child a:hover{
+background: #fff;
+color: #474747;
 }
 
 .site {
