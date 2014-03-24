@@ -134,6 +134,8 @@ background:#111;
 display: block;
 margin: 10px auto;
 padding: 15px 0;
+border-top: 1px solid #444;
+border-bottom: 1px solid #444;
 text-align: center;
 z-index:5;
 }
