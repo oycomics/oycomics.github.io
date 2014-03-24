@@ -82,7 +82,7 @@ border-color: #ccc;
 }
 
 .archive ul.posts_list li a.Sunday-archive {
-background: orange;
+background: #fed159;
 }
 
 .archive ul.posts_list li a:hover {
@@ -99,7 +99,7 @@ text-indent: 0;
 display: block;
 font-weight:700;
 padding: 15px 0;
-background: tan;
+background: #390e87;
 }
 
 .archive ul.posts_list li span {
