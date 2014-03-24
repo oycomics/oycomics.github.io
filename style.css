@@ -153,6 +153,7 @@ background:#fff;
 
 a.footer_nav_item.rss:hover {
 color: #F58922;
+text-transform: uppercase;
 }
 
 a.footer_nav_item.googleplus:hover {
