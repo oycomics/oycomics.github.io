@@ -151,6 +151,10 @@ color: #474747;
 background:#fff;
 }
 
+a.nav_item.rss:hover {
+color: #F58922;
+}
+
 a.footer_nav_item.googleplus:hover {
 color: #dd4b39;
 }
