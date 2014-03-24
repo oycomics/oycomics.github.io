@@ -75,7 +75,7 @@ text-indent: 10px;
 .archive ul.posts_list li a {
 display: block;
 padding: 5px 0;
-border-width: 1px solid #fff;
+border: 1px solid #fff;
 
 }
 
