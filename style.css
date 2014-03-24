@@ -5,12 +5,11 @@ position:relative;
 }
 
 html {
-background:#111;
+background:#222;
 }
 
 body {
 margin:0;
-background: #222;
 color:#fff;
 font-size: 16px;
 font-size:1rem;
@@ -131,6 +130,7 @@ z-index:9;
 }
 
 .nav {
+background:#111;
 display: block;
 margin: 10px auto;
 padding: 15px 0;
