@@ -145,51 +145,16 @@ a.nav_item {
 display: inline;
 padding: 10px;
 text-align: center;
-background:#fff;
-color: #474747;
-border: 1px solid #474747;
+color: #fff; 
+border: 1px solid #fff;
 z-index:6;
 }
 
 a.nav_item:hover {
-color: #fff; 
+color: #474747;
+background:#fff;
 }
 
-a.nav_item.todays_comic:hover {
-background: #272727;
-}
-
-a.nav_item.first_comic_link:hover {
-background: #272727;
-}
-
-a.nav_item.archive_link:hover {
-background: #272727;
-}
-
-a.nav_item.about:hover {
-background: #566342;
-}
-
-a.nav_item.news:hover {
-background: #304e6c;
-}
-
-a.nav_item.rss:hover {
-background: #F58922;
-}
-
-a.nav_item.googleplus:hover {
-background: #dd4b39;
-}
-
-a.nav_item.twitter:hover {
-background: #5ea9dd;
-}
-
-a.nav_item.facebook:hover {
-background: #3d5b98;
-}
 
 .comic {
 text-align: center;
