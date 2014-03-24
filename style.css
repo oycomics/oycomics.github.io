@@ -46,8 +46,8 @@ padding: 5px 0;
 margin: 0 auto;
 }
 
-.title_about p{
-line-height: 22px;
+.title_about p {
+line-height: 24px;
 }
 
 h2 {
@@ -222,7 +222,6 @@ text-align: center;
 background: #fff;
 padding: 10px 0;
 z-index:9;
-box-shadow: 0 0 5px 0 #000;
 }
 
 .posts_list {
@@ -288,6 +287,7 @@ margin: 10px auto;
 width: 300px;
 height: 60px;
 line-height: 28px;
+font-weight: 700;
 text-align: center;
 }
 
@@ -296,7 +296,8 @@ display: block;
 }
 
 .copy_paste_share a {
-display: block; 
+display: block;
+font-weight: 400;
 border: 1px solid #ccc;
 background: #f1f1f1;
 color: #474747;
