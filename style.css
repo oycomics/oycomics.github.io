@@ -10,7 +10,7 @@ background:#312a2c;
 
 body {
 margin:0;
-background: #839680;
+background: #899886;
 color:#fcf6ee;
 font-size: 16px;
 font-size:1rem;
@@ -131,7 +131,6 @@ z-index:9;
 }
 
 .nav {
-background:#b63e16;
 display: block;
 margin: 10px auto;
 padding: 15px 0;
@@ -141,16 +140,16 @@ z-index:5;
 
 a.nav_item {
 display: inline;
-padding: 10px;
+padding: 15px;
 text-align: center;
-color: #fcf6ee; 
-border: 1px solid #fcf6ee;
+color: #312a2c;
+background:#fcf6ee;
 z-index:6;
 }
 
 a.nav_item:hover {
-color: #312a2c;
-background:#fcf6ee;
+color: #fcf6ee;
+background: #5d635a;
 }
 
 a.footer_nav_item.rss:hover {
@@ -186,6 +185,8 @@ z-index:10;
 max-width: 95%;
 max-height: 95%;
 z-index:10;
+
+box-shadow: 0 1px 3px #312a2c;
 }
 
 a.comic_nav {
@@ -246,13 +247,6 @@ font-weight: 700;
 text-align: center;
 background: #fcf6ee;
 color: #312a2c;
-border-top: 1px solid #999;
--webkit-border-bottom-right-radius: 10px;
--webkit-border-bottom-left-radius: 10px;
--moz-border-radius-bottomright: 10px;
--moz-border-radius-bottomleft: 10px;
-border-bottom-right-radius: 10px;
-border-bottom-left-radius: 10px;
 }
 
 .copy_paste_share span{
