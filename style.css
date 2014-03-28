@@ -36,6 +36,8 @@ font-size: 20px;
 font-size: 1.25rem;
 }
 
+h1.site_title a:hover { color: #474747;}
+
 .title_about {
 width: 95%;
 text-align: center;
