@@ -5,7 +5,6 @@
 <link rel="alternate" type="application/rss+xml" href="http://feeds.feedburner.com/oy">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 <link rel="stylesheet" type="text/css" href="{{ site.url }}/style.css">
-
 <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
 <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
 <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png" />
@@ -15,30 +14,27 @@
 <link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120.png" />
 <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144.png" />
 <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png" />
-
 <link rel="author" href="https://plus.google.com/+DannyBurleson"/>
 <link rel="publisher" href=”https://plus.google.com/+Oycomics"/>
-
 <meta itemprop="name" content="{{ page.title }} | Oy(TM) a daily comi">
 <meta itemprop="description" content="Follow the adventures at a children's entertainment company . . . and the lives of the people who work there.">
-
 <meta property="fb:admins" content="danny.burleson">
-
-<meta name="twitter:card" content="summary">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@oycomics">
 <meta name="twitter:title" content="{{ page.title }} | Oy(TM) a daily comic">
 <meta name="twitter:description" content="Follow the adventures at a children's entertainment company . . . and the lives of the people who work there.">
 <meta property="og:title" content="{{ page.title }} | Oy(TM) a daily comic">
 <meta property="og:type" content="website">
 <meta property="og:description" content="Follow the adventures at a children's entertainment company . . . and the lives of the people who work there.">
-{% if page.image %}<meta property="og:image" content="{{ site.url }}/comics/{{ page.image }}">
-{% else %}<meta property="og:image" content="{{ site.url }}/assets/img/oy_logo.png">{% endif %}
+{% if page.image %}
+<meta itemprop="image" content="{{ site.url }}/comics/{{ page.image }}">
+<meta property="og:image" content="{{ site.url }}/comics/{{ page.image }}">
+{% else %}
+<meta itemprop="image" content="{{ site.url }}/assets/img/oy_logo.png">
+<meta property="og:image" content="{{ site.url }}/assets/img/oy_logo.png">
+{% endif %}
 <meta property="og:image:type" content="image/png">
 
-
-<!-- Twitter Card data -->
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:site" content="@publisher_handle">
-<meta name="twitter:title" content="Page Title">
 <meta name="twitter:description" content="Page description less than 200 characters">
 <meta name="twitter:creator" content="@author_handle">
 <!-- Twitter summary card with large image must be at least 280x150px -->
