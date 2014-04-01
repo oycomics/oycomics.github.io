@@ -250,7 +250,7 @@ text-align:right;
 
 .copy_paste_share {
 display: block;
-margin: 0 auto;
+margin: 1px auto 0;
 width: 300px;
 padding: 0 10px;
 height: 60px;
