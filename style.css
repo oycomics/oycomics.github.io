@@ -134,15 +134,20 @@ z-index:9;
 
 .nav {
 display: block;
-margin: 10px auto;
-padding: 15px 0;
+width: 320px;
+height: 65px;
+margin: 1px auto 10px;
 text-align: center;
 z-index:5;
 }
 
 a.nav_item {
-display: inline;
-padding: 22px 10px;
+display: block;
+float: left;
+width: 79px;
+height: 65px;
+line-height: 65px;
+margin: 0 0 0 1px;
 text-align: center;
 color: #312a2c;
 background:#fcf6ee;
@@ -152,6 +157,11 @@ z-index:6;
 a.nav_item:hover {
 color: #fcf6ee;
 background: #5d635a;
+}
+
+a.nav_item.todays_comic {
+margin: 0;
+width: 80px;
 }
 
 a.footer_nav_item.rss:hover {
