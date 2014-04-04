@@ -16,8 +16,6 @@ font-size: 16px;
 font-size:1rem;
 font-family:arial,sans-serif;
 z-index:1;
-
-
 }
 
 h1.site_title {
@@ -37,17 +35,10 @@ font-size: 20px;
 font-size: 1.25rem;
 }
 
-h1.site_title a:hover { color: #474747;}
-
 .title_about {
-width: 95%;
 text-align: center;
-padding: 5px 0;
-margin: 10px auto;
-width: 95%;
-min-width: 300px;
-max-width: 960px;
-box-shadow: 0 1px 2px #999;
+border-top: 1px solid #f0f0f0;
+padding: 12px 0;
 }
 
 .title_about p {
@@ -64,7 +55,7 @@ text-decoration:none;
 }
 
 a:hover {
-color:#000;
+color: #8dc63f;
 }
 
 ul {
@@ -139,57 +130,30 @@ z-index:9;
 
 .nav {
 display: block;
-margin: 10px auto;
-width: 95%;
-min-width: 300px;
-max-width: 960px;
-height: 60px;
-line-height: 60px;
-border: 1px solid #f0f0f0;
+
+padding: 24px 0;
+border-top: 1px solid #f0f0f0;
 text-align: center;
-box-shadow: 0 1px 2px #999;
 z-index:5;
 }
 
 a.nav_item {
-display: inline-block;
-width: 24%;
-height: 100%;
+display: inline;
+padding: 24px 12px;
 text-align: center;
 color: #333;
 z-index:6;
 }
 
 a.nav_item:hover {
-color: #fff;
-background: #474747;
+color: #8dc63f;
 }
-
-
-a.footer_nav_item.rss:hover {
-color: #F58922;
-}
-
-a.footer_nav_item.googleplus:hover {
-color: #dd4b39;
-}
-
-a.footer_nav_item.twitter:hover {
-color: #5ea9dd;
-}
-
-a.footer_nav_item.facebook:hover {
-color: #3d5b98;
-}
-
 
 .comic {
 text-align: center;
 background: #fff;
 padding: 10px 0;
-margin: 0 auto 10px;
-border-bottom: #f0f0f0 1px solid;
-box-shadow: 0 1px 2px #999;
+margin: 0 auto;
 z-index:9;
 }
 
@@ -255,16 +219,13 @@ text-align:right;
 display: block;
 padding: 10px 0;
 margin: 5px auto;
-width: 95%;
-min-width: 300px;
-max-width: 960px;
+border-top: 1px solid #f0f0f0;
 height: 60px;
 line-height: 28px;
-border: 1px solid #f0f0f0 ;
 font-weight: 700;
 text-align: center;
 color: #333;
-box-shadow: 0 1px 2px #999;
+
 }
 
 .copy_paste_share span{
@@ -274,7 +235,6 @@ display: block;
 .copy_paste_share a {
 display: block;
 font-weight: 400;
-color: #333;
 }
 
 .footer {
@@ -283,13 +243,8 @@ border-top: #f0f0f0 1px solid;
 clear: both;
 line-height:25px;
 padding: 10px 0;
-
 text-align:center;
 margin: 10px auto;
-width: 95%;
-min-width: 300px;
-max-width: 960px;
-box-shadow: 0 1px 2px #999;
 }
 
 a.copyright {
