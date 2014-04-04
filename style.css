@@ -135,6 +135,7 @@ z-index:9;
 .nav {
 display: block;
 background: tan;
+padding: 12px 0;
 margin: 1px auto 10px;
 text-align: center;
 z-index:5;
