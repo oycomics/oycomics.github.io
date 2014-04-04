@@ -134,7 +134,6 @@ z-index:9;
 
 .nav {
 display: block;
-height: 65px;
 background: tan;
 margin: 1px auto 10px;
 text-align: center;
@@ -143,7 +142,7 @@ z-index:5;
 
 a.nav_item {
 display: inline;
-padding: 0 12px;
+padding: 24px 12px;
 text-align: center;
 color: #312a2c;
 background: pink;
