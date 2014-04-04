@@ -22,9 +22,8 @@ z-index:1;
 
 h1.site_title {
 text-align: center;
-width: 300px;
 padding: 0 0 5px;
-margin: 0 auto;
+
 }
 
 h1.site_title a {
@@ -44,7 +43,11 @@ h1.site_title a:hover { color: #474747;}
 width: 95%;
 text-align: center;
 padding: 5px 0;
-margin: 0 auto;
+margin: 10px auto;
+width: 95%;
+min-width: 300px;
+max-width: 960px;
+box-shadow: 0 1px 2px #999;
 }
 
 .title_about p {
@@ -136,18 +139,23 @@ z-index:9;
 
 .nav {
 display: block;
-border-top: #f0f0f0 1px solid;
-border-bottom: #f0f0f0 1px solid;
-padding: 36px 0;
+margin: 10px auto;
+width: 95%;
+min-width: 300px;
+max-width: 960px;
+height: 60px;
+line-height: 60px;
+border: 1px solid #f0f0f0;
 text-align: center;
+box-shadow: 0 1px 2px #999;
 z-index:5;
 }
 
 a.nav_item {
-display: inline;
-padding: 23px 12px 24px;
+display: inline-block;
+width: 24%;
+height: 100%;
 text-align: center;
-border: 1px solid #e0e0e0;
 color: #333;
 z-index:6;
 }
@@ -179,6 +187,9 @@ color: #3d5b98;
 text-align: center;
 background: #fff;
 padding: 10px 0;
+margin: 0 auto 10px;
+border-bottom: #f0f0f0 1px solid;
+box-shadow: 0 1px 2px #999;
 z-index:9;
 }
 
@@ -243,12 +254,17 @@ text-align:right;
 .copy_paste_share {
 display: block;
 padding: 10px 0;
+margin: 5px auto;
+width: 95%;
+min-width: 300px;
+max-width: 960px;
 height: 60px;
 line-height: 28px;
-border-top: #f0f0f0 1px solid;
+border: 1px solid #f0f0f0 ;
 font-weight: 700;
 text-align: center;
 color: #333;
+box-shadow: 0 1px 2px #999;
 }
 
 .copy_paste_share span{
@@ -266,14 +282,17 @@ display: block;
 border-top: #f0f0f0 1px solid;
 clear: both;
 line-height:25px;
-padding: 10px 0 25px;
-margin: 10px auto 0;
+padding: 10px 0;
+
 text-align:center;
+margin: 10px auto;
+width: 95%;
+min-width: 300px;
+max-width: 960px;
+box-shadow: 0 1px 2px #999;
 }
 
 a.copyright {
-width: 300px;
-margin: 0 auto;
 display:block;
 z-index:11;
 }
