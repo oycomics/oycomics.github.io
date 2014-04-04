@@ -87,7 +87,7 @@ background: #fed159;
 }
 
 .archive ul.posts_list li a:hover {
-background: #312a2c;
+background: #333;
 color: #fcf6ee;
 }
 
@@ -118,7 +118,7 @@ text-transform: uppercase;
 .archive ul.posts_list li a:hover,
 .archive ul.posts_list li:first-child a:hover{
 background: #fcf6ee;
-color: #312a2c;
+color: #333;
 }
 
 .site {
@@ -222,7 +222,7 @@ font-size: 4rem;
 
 a.comic_nav:hover {
 text-decoration: none;
-color: #312a2c;
+color: #333;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
   filter: alpha(opacity=100);
   -moz-opacity: 1;
@@ -248,7 +248,7 @@ line-height: 28px;
 border-top: #f0f0f0 1px solid;
 font-weight: 700;
 text-align: center;
-color: #312a2c;
+color: #333;
 }
 
 .copy_paste_share span{
@@ -258,7 +258,7 @@ display: block;
 .copy_paste_share a {
 display: block;
 font-weight: 400;
-color: #312a2c;
+color: #333;
 }
 
 .footer {
