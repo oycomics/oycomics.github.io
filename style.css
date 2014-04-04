@@ -37,7 +37,7 @@ font-size: 1.25rem;
 
 .title_about {
 text-align: center;
-border-top: 2px dotted  #a5e84a;
+border-top: 1px dotted  #a5e84a;
 padding: 12px 0;
 }
 
@@ -131,7 +131,7 @@ z-index:9;
 .nav {
 display: block;
 padding: 24px 0;
-border-top: 3px dotted  #99d845;
+border-top: 1px dotted  #99d845;
 text-align: center;
 z-index:5;
 }
@@ -218,7 +218,7 @@ text-align:right;
 display: block;
 padding: 10px 0;
 margin: 5px auto;
-border-top: 4px dotted #8dc63f;
+border-top: 1px dotted #8dc63f;
 height: 60px;
 line-height: 28px;
 font-weight: 700;
