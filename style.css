@@ -5,12 +5,12 @@ position:relative;
 }
 
 html {
-background:#fff;
+background:#ddf0dc;
 }
 
 body {
 margin:0;
-background: #fff;
+background: #ddf0dc;
 color:#333;
 font-size: 16px;
 font-size:1rem;
@@ -21,7 +21,6 @@ z-index:1;
 h1.site_title {
 text-align: center;
 padding: 0 0 5px;
-
 }
 
 h1.site_title a {
@@ -37,7 +36,10 @@ font-size: 1.25rem;
 
 .title_about {
 text-align: center;
-border-top: 1px dotted  #a5e84a;
+box-shadow: 0 -3px 2px #cde5cd;
+border-top: 1px solid #b7ddb6;
+z-index: 40;
+background: #e4f4e4;
 padding: 12px 0;
 }
 
@@ -131,9 +133,11 @@ z-index:9;
 .nav {
 display: block;
 padding: 24px 0;
-border-top: 1px dotted  #99d845;
+background: #e9f8e8;
+border-top: 1px solid #b7ddb6;
+box-shadow: 0 -3px 2px #cde5cd;
 text-align: center;
-z-index:5;
+z-index:30;
 }
 
 a.nav_item {
@@ -153,7 +157,7 @@ text-align: center;
 background: #fff;
 padding: 10px 0;
 margin: 0 auto;
-z-index:9;
+z-index:10;
 }
 
 .posts_list {
@@ -164,7 +168,7 @@ z-index:10;
 .comic img {
 max-width: 95%;
 max-height: 95%;
-z-index:10;
+z-index:11;
 }
 
 a.comic_nav {
@@ -179,7 +183,7 @@ color: #aaa;
   -moz-opacity: 0.5;
   -khtml-opacity: 0.5;
   opacity: 0.5;
-z-index:11;
+z-index:12;
 }
 
 a.comic_nav span {
@@ -217,14 +221,15 @@ text-align:right;
 .copy_paste_share {
 display: block;
 padding: 10px 0;
-margin: 5px auto;
-border-top: 1px dotted #8dc63f;
 height: 60px;
 line-height: 28px;
 font-weight: 700;
 text-align: center;
 color: #333;
-
+background: #f5fdf5;
+box-shadow: 0 -3px 2px #cde5cd;
+border-top: 1px solid #b7ddb6;
+z-index: 20;
 }
 
 .copy_paste_share span{
@@ -238,12 +243,15 @@ font-weight: 400;
 
 .footer {
 display: block;
-border-top: 1px dotted  #aef74d;
 clear: both;
+width:;
 line-height:25px;
 padding: 10px 0;
 text-align:center;
-margin: 10px auto;
+background: #ddf0dc;
+box-shadow: 0 -3px 2px #cde5cd;
+border-top: 1px solid #b7ddb6;
+z-index: 50;
 }
 
 a.copyright {
