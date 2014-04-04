@@ -5,12 +5,12 @@ position:relative;
 }
 
 html {
-background:#ddf0dc;
+background:#4a4b6c;
 }
 
 body {
 margin:0;
-background: #ddf0dc;
+background: #4a4b6c;
 color:#333;
 font-size: 16px;
 font-size:1rem;
@@ -36,11 +36,11 @@ font-size: 1.25rem;
 
 .title_about {
 text-align: center;
-box-shadow: 0 -3px 2px #cde5cd;
-border-top: 1px solid #b7ddb6;
+box-shadow: 0 -3px 2px #593239;
 z-index: 40;
-background: #e4f4e4;
-padding: 12px 0;
+background: #7b595f;
+color: #fff;
+padding: 15px 0;
 }
 
 .title_about p {
@@ -52,12 +52,12 @@ padding: 10px;
 }
 
 a {
-color:#333;
+color:#fff;
 text-decoration:none;
 }
 
 a:hover {
-color: #8dc63f;
+color: #fff799;
 }
 
 ul {
@@ -133,9 +133,8 @@ z-index:9;
 .nav {
 display: block;
 padding: 24px 0;
-background: #e9f8e8;
-border-top: 1px solid #b7ddb6;
-box-shadow: 0 -3px 2px #cde5cd;
+background: #7e9775;
+box-shadow: 0 -3px 2px #556e4b;
 text-align: center;
 z-index:30;
 }
@@ -144,12 +143,11 @@ a.nav_item {
 display: inline;
 padding: 24px 12px;
 text-align: center;
-color: #333;
 z-index:6;
 }
 
 a.nav_item:hover {
-color: #8dc63f;
+
 }
 
 .comic {
@@ -225,10 +223,9 @@ height: 60px;
 line-height: 28px;
 font-weight: 700;
 text-align: center;
-color: #333;
-background: #f5fdf5;
-box-shadow: 0 -3px 2px #cde5cd;
-border-top: 1px solid #b7ddb6;
+color: #fff;
+background: #9d947b;
+box-shadow: 0 -3px 2px #6d644a;
 z-index: 20;
 }
 
@@ -244,13 +241,12 @@ font-weight: 400;
 .footer {
 display: block;
 clear: both;
-width:;
+color: #fff;
 line-height:25px;
 padding: 10px 0;
 text-align:center;
-background: #ddf0dc;
-box-shadow: 0 -3px 2px #cde5cd;
-border-top: 1px solid #b7ddb6;
+background: #4a4b6c;
+box-shadow: 0 -3px 2px #2c2d4d;
 z-index: 50;
 }
 
