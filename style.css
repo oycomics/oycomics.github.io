@@ -134,20 +134,16 @@ z-index:9;
 
 .nav {
 display: block;
-width: 320px;
 height: 65px;
+background: #fcf6ee;
 margin: 1px auto 10px;
 text-align: center;
 z-index:5;
 }
 
 a.nav_item {
-display: block;
-float: left;
-width: 79px;
-height: 65px;
-line-height: 65px;
-margin: 0 0 0 1px;
+display: inline;
+padding: 24px 12px;
 text-align: center;
 color: #312a2c;
 background:#fcf6ee;
@@ -255,7 +251,7 @@ height: 60px;
 line-height: 28px;
 font-weight: 700;
 text-align: center;
-background: #fcf6ee;
+background: #f9f9f9;
 color: #312a2c;
 }
 
