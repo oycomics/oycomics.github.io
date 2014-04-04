@@ -183,7 +183,7 @@ color: #3d5b98;
 
 .comic {
 text-align: center;
-background: #fcf6ee;
+background: #fff;
 padding: 10px 0;
 z-index:9;
 }
@@ -197,8 +197,6 @@ z-index:10;
 max-width: 95%;
 max-height: 95%;
 z-index:10;
-
-box-shadow: 0 1px 3px #312a2c;
 }
 
 a.comic_nav {
