@@ -39,7 +39,7 @@ To get started you will need:
 
 #####Daily
 
-	2048x682
+	2048x653
 
 #####Sunday
 
