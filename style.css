@@ -278,3 +278,16 @@ display:none;
 .showcase {
 display: none;
 }
+
+/* Responsive */
+
+@media all and (max-width: 800px) {
+
+.comic img {
+max-width: 90%;
+max-height: 90%;
+}
+
+}
+
+
