@@ -130,7 +130,7 @@ z-index:9;
 
 .nav {
 display: block;
-padding: 24px 0;
+padding: 12px 0;
 border-top: 1px solid #333;
 border-bottom: 1px solid #333;
 text-align: center;
@@ -139,7 +139,7 @@ z-index:30;
 
 a.nav_item {
 display: inline;
-padding: 24px 12px;
+padding: 12px;
 text-align: center;
 z-index:6;
 }
