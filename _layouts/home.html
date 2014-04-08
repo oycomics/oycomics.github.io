@@ -14,7 +14,7 @@
 </div>
 {% include nav.html %}
 {% include title.html %}
-<div class="copy_paste_share_home">
+<div class="copy_paste_share_url copy_paste_share_home">
 {% for post in site.posts limit:1 %}
 <a href="{{ site.url }}{{ post.url }}">{{ site.url }}{{ post.url }}</a>
 {% endfor %}
