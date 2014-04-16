@@ -9,12 +9,13 @@
 </head>
 <body>
 <div class="site home">
+{% include title.html %}
 <div class="homecomic">
 	{{ content }}
 </div>
 {% include nav.html %}
-{% include title.html %}
 <div class="copy_paste_share_url copy_paste_share_home">
+<span>Copy.Paste.Share.</span>
 {% for post in site.posts limit:1 %}
 <a href="{{ site.url }}{{ post.url }}">{{ site.url }}{{ post.url }}</a>
 {% endfor %}
