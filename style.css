@@ -19,8 +19,8 @@ z-index:1;
 }
 
 h1.title {
-float: left;
-margin: 10px;
+text-align: center;
+margin: 10px 0 0;
 }
 
 h1.title a {
@@ -34,26 +34,13 @@ font-size: 20px;
 font-size: 1.25rem;
 }
 
-.title_about {
-text-align: center;
-z-index: 40;
-color: #fff;
-padding: 5px 0;
-}
-
-.title_about p {
-line-height: 24px;
-}
-
 a.copy_paste_share {
 display: block;
-line-height: 28px;
-font-weight: 700;
-border-top: 1px solid #333;
-text-align: center;
+width: 100%;
 color:#fff;
+text-align: center;
 float: right;
-margin: 10px;
+margin: 10px 0;
 z-index: 20;
 }
 
