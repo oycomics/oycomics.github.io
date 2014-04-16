@@ -18,17 +18,18 @@ font-family:arial,sans-serif;
 z-index:1;
 }
 
-h1.site_title {
-text-align: center;
+h1.title {
+float: left;
+margin: 10px;
 }
 
-h1.site_title a {
+h1.title a {
 display:block;
 font-size: 28px;
 font-size: 1.75rem;
 }
 
-h1.site_title a span {
+h1.title a span {
 font-size: 20px;
 font-size: 1.25rem;
 }
@@ -42,6 +43,12 @@ padding: 5px 0;
 
 .title_about p {
 line-height: 24px;
+}
+
+.date {
+color:#fff;
+float: right;
+margin: 10px;
 }
 
 h2 {
