@@ -10,11 +10,9 @@
 <body>
 <div class="site home">
 {% include title.html %}
-<div class="copy_paste_share_url copy_paste_share_home">
 {% for post in site.posts limit:1 %}
-<a href="{{ site.url }}{{ post.url }}">{{ site.url }}{{ post.url }}</a>
+<a class="copy_paste_share" href="{{ site.url }}{{ post.url }}">oycomics.com{{ post.url }}</a>
 {% endfor %}
-</div>
 <div class="homecomic">
 	{{ content }}
 </div>
