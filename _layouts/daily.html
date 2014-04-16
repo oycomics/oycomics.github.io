@@ -9,13 +9,12 @@
 </head>
 <body>
 <div class="site">
-{% include title.html %}
+{% include title.html %}{% include copy_paste_share.html %}
 <div class="comic daily">
 {% include comic_nav.html %}
 {{ content }}
 </div>
 {% include nav.html %}
-{% include copy_paste_share.html %}
 {% include footer.html %}
 </div>
 </body>
