@@ -173,8 +173,7 @@ z-index:10;
 }
 
 .comic img {
-max-width: 95%;
-max-height: 95%;
+width: 95%;
 box-shadow: 0 0 3px #000;
 z-index:11;
 }
