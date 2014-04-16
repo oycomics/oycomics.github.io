@@ -45,10 +45,16 @@ padding: 5px 0;
 line-height: 24px;
 }
 
-.date {
+a.copy_paste_share {
+display: block;
+line-height: 28px;
+font-weight: 700;
+border-top: 1px solid #333;
+text-align: center;
 color:#fff;
 float: right;
 margin: 10px;
+z-index: 20;
 }
 
 h2 {
@@ -219,32 +225,6 @@ text-align:left;
 a.comic_nav_next {
 right:3px;
 text-align:right;
-}
-
-.copy_paste_share {
-display: block;
-padding: 10px 0;
-height: 60px;
-line-height: 28px;
-font-weight: 700;
-border-top: 1px solid #333;
-text-align: center;
-color: #fff;
-z-index: 20;
-}
-
-.copy_paste_share_url {
-padding: 0 0 10px;
-text-align: center;
-}
-
-.copy_paste_share span{
-display: block;
-}
-
-.copy_paste_share a {
-display: block;
-font-weight: 400;
 }
 
 .footer {
