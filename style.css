@@ -283,7 +283,7 @@ display: none;
 
 /* Small screen */
 
-@media all and (max-width: 820px) {
+@media all and (max-width: 1240px) {
  
  .stripe,a.comic_nav span {
   font-size: 40px;
