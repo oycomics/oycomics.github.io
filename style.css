@@ -187,8 +187,8 @@ border-width: 2px 0;
 border-style: solid;
 border-color: #dcffa8;
 color: #ACD373;
-font-size: 40px;
-font-size: 2.5rem;
+font-size: 64px;
+font-size: 4rem;
 font-weight: 700;
 z-index: 10;
 }
@@ -220,8 +220,8 @@ top:45%;
 left:0;
 width:100%;
 margin-top: -0.05em;
-font-size: 40px;
-font-size: 2.5rem;
+font-size: 64px;
+font-size: 4rem;
 font-weight: 700;
 }
 
@@ -284,6 +284,12 @@ display: none;
 /* Small screen */
 
 @media all and (max-width: 820px) {
+ 
+ .stripe,a.comic_nav span {
+  font-size: 40px;
+font-size: 2.5rem;
+ }
+ 
 .comic img {
 max-width: 90%;
 max-height: 90%;
