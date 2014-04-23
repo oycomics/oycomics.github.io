@@ -151,9 +151,6 @@ z-index:10;
 width: 95%;
 border: 1px solid #ccc;
 z-index:11;
--webkit-border-radius: 10px;
--moz-border-radius: 10px;
-border-radius: 10px;
 }
 
 .stripe {
@@ -162,11 +159,8 @@ width: 100%;
 position:absolute;
 top:45%;
 left:0;
--webkit-border-radius: 10px;
--moz-border-radius: 10px;
-border-radius: 10px;
 background: #999;
-border-width: 1px 0;
+border-width: 2px 0;
 border-style: solid;
 border-color: #ccc;
 color: #ACD373;
