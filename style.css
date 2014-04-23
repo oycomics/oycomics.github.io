@@ -20,7 +20,7 @@ z-index:1;
 
 h1.title {
 text-align: center;
-padding: 5px 0;
+padding: 5px 0 10px;
 
 }
 
@@ -122,9 +122,6 @@ z-index:9;
 .nav {
 display: block;
 padding: 12px 0;
-background: #fff;
-border-top: 1px solid #ccc;
-border-bottom: 1px solid #ccc;
 text-align: center;
 z-index:30;
 }
@@ -143,13 +140,15 @@ a.nav_item:hover {
 .comic {
 text-align: center;
 padding: 10px 0;
+border-top: 1px solid #ccc;
+border-bottom: 1px solid #ccc;
+background: #fff;
 margin: 0 auto;
 z-index:10;
 }
 
 .comic img {
 width: 95%;
-border: 1px solid #ccc;
 z-index:11;
 }
 
