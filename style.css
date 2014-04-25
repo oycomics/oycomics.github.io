@@ -33,6 +33,10 @@ font-size: 28px;
 font-size: 1.75rem;
 }
 
+h1.title a:hover { 
+ color: #acd373;
+ }
+
 h1.title a span {
 font-size: 20px;
 font-size: 1.25rem;
