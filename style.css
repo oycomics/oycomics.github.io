@@ -157,6 +157,7 @@ z-index:100;
 
 .comic img {
 width: 95%;
+max-width: 2048px;
 -webkit-border-radius: 16px;
 -moz-border-radius: 16px;
 border-radius: 16px;
