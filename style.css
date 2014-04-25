@@ -5,12 +5,12 @@ position:relative;
 }
 
 html {
-background: ;
+background: #222;
 }
 
 body {
 margin:0;
-background: ;
+background: #999;
 color:#333;
 font-size: 16px;
 font-size:1rem;
@@ -20,9 +20,9 @@ z-index:1;
 
 h1.title {
 text-align: center;
-background: #474747;
+background: #373737;
 padding: 5px 0 25px;
-margin: 0 auto -15px;
+margin: 0 auto -10px;
 border-bottom: 1px solid #ccc;
 }
 
@@ -43,7 +43,7 @@ padding: 10px;
 }
 
 a {
-color:#333;
+color:#fff;
 text-decoration:none;
 }
 
@@ -117,6 +117,7 @@ width: 300px;
 margin: 0 auto;
 line-height: 20px;
 line-height: 1.25rem;
+background: red;
 text-align: center;
 z-index:9;
 }
@@ -124,11 +125,11 @@ z-index:9;
 .nav {
 display: block;
 margin: -15px auto 0;
-background: #474747;
+background: #373737;
 border-top: 1px solid #ccc;
-padding: 27px 0 12px;
+padding: 25px 0 12px;
 text-align: center;
-z-index:30;
+z-index:2;
 }
 
 a.nav_item {
@@ -145,7 +146,6 @@ a.nav_item:hover {
 .comic {
 text-align: center;
 padding: 0;
-
 background: ;
 margin: 0 auto;
 z-index:100;
@@ -153,6 +153,7 @@ z-index:100;
 
 .comic img {
 width: 95%;
+box-shadow: 0 0 3px #000;
 z-index:101;
 }
 
@@ -162,7 +163,7 @@ width: 100%;
 position:absolute;
 top:45%;
 left:0;
-background: #999;
+background: #acd373;
 border-width: 2px 0;
 border-style: solid;
 border-color: #ccc;
@@ -185,7 +186,7 @@ top:0;
 height:100%;
 width:47%;
 color: #fff;
-z-index:12;
+z-index:120;
 }
 
 a.comic_nav span {
@@ -216,6 +217,8 @@ text-align:right;
 
 .footer {
 display: block;
+background: #222;
+box-shadow: 0 0 3px #222;
 clear: both;
 color: #eee;
 line-height:25px;
