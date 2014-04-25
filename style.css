@@ -10,7 +10,7 @@ background: #222;
 
 body {
 margin:0;
-background: #999;
+background: #c5c5c5;
 color:#333;
 font-size: 16px;
 font-size:1rem;
@@ -23,7 +23,7 @@ text-align: center;
 background: #373737;
 padding: 5px 0 25px;
 margin: 0 auto -10px;
-border-bottom: 1px solid #ccc;
+border-bottom: 1px solid #eee;
 }
 
 h1.title a {
@@ -126,7 +126,7 @@ z-index:9;
 display: block;
 margin: -15px auto 0;
 background: #373737;
-border-top: 1px solid #ccc;
+border-top: 1px solid #eee;
 padding: 25px 0 12px;
 text-align: center;
 z-index:2;
@@ -153,6 +153,9 @@ z-index:100;
 
 .comic img {
 width: 95%;
+-webkit-border-radius: 16px;
+-moz-border-radius: 16px;
+border-radius: 16px;
 box-shadow: 0 0 3px #000;
 z-index:101;
 }
@@ -164,13 +167,16 @@ position:absolute;
 top:45%;
 left:0;
 background: #acd373;
-border-width: 2px 0;
+border-width: 1px 0;
 border-style: solid;
-border-color: #ccc;
+border-color: #eee;
 color: #ACD373;
 font-size: 64px;
 font-size: 4rem;
 font-weight: 700;
+-webkit-border-radius: 16px;
+-moz-border-radius: 16px;
+border-radius: 16px;
 z-index: 10;
 }
 
