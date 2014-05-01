@@ -275,7 +275,8 @@ display: none;
 
 .patreon_spotlight a { text-decoration: underline;}
 
-.patreon_spotlight input { background: #ff7f29;
+.patreon_spotlight input {
+background: #acd373;
 border: 0; color: #fff; padding: 15px 0;
 font-size: 16px;
 font-size:1rem;
@@ -285,7 +286,7 @@ border-radius: 10px;
 }
 
 .patreon_spotlight input:hover {
-background: orange;
+background: #ff7f29;
 cursor: pointer;
 }
 
