@@ -269,6 +269,26 @@ color: #fff;
 display: none;
 }
 
+/* Patreon */
+
+.patreon_spotlight p{ margin: 10px auto; text-align:center; width: 320px; color: #fff;}
+
+.patreon_spotlight a {}
+
+.patreon_spotlight input { background: #ff7f29;
+border: 0; color: #fff; padding: 15px 0;
+font-size: 16px;
+font-size:1rem;
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+}
+
+.patreon_spotlight input:hover {
+background: orange;
+cursor: pointer;
+}
+
 /* Small screen */
 
 @media all and (max-width: 1240px) {
