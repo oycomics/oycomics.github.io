@@ -1,7 +1,7 @@
 <div class="nav">
 	{% for post in site.posts limit:1 %}
-	<a class="nav_item todays_comic" href="{{ post.url }}" style="border-left: 1px solid #444;">Today's</a>
+	<a class="nav_item todays_comic" href="{{ post.url }}">Today's</a>
 	{% endfor %}
-	<a class="nav_item first_comic_link" href="/" style="border-left: 1px solid #444; border-right: 1px solid #444;">First</a>
-	<a class="nav_item archive_link" href="/archive" style="border-right: 1px solid #444;">Archive</a>
+	<a class="nav_item first_comic_link" href="/">First</a>
+	<a class="nav_item archive_link" href="/archive">Archive</a>
 </div>
