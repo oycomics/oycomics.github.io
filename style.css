@@ -5,12 +5,12 @@ position:relative;
 }
 
 html {
-background: #111;
+background: #f1f1f1;
 }
 
 body {
 margin:0;
-background: #111;
+background: #f9f9f9;
 color:#333;
 font-size: 16px;
 font-size:1rem;
@@ -20,21 +20,21 @@ z-index:1;
 
 h1.title {
 text-align: center;
-background: #222;
+background: #f1f1f1;
 padding: 5px 0 15px;
 margin: 0 auto -10px;
-border-bottom: 1px solid #444;
+
 }
 
 h1.title a {
 display:block;
-color: #fff;
+color: #888;
 font-size: 28px;
 font-size: 1.75rem;
 }
 
 h1.title a:hover { 
- color: #acd373;
+ color: #222;
  }
 
 h1.title a span {
@@ -47,12 +47,12 @@ padding: 10px;
 }
 
 a {
-color:#fff;
+color:#888;
 text-decoration:none;
 }
 
 a:hover {
-color: #acd373;
+color: #222;
 }
 
 ul {
@@ -75,10 +75,9 @@ z-index:9;
 .nav {
 display: block;
 margin: -15px auto 0;
-background: #222;
-border-top: 1px solid #444;
-border-bottom: 1px solid #444;
-padding: 35px 0 22px;
+background: #f1f1f1;
+
+padding: 20px 0 12px;
 text-align: center;
 z-index:2;
 }
@@ -108,25 +107,7 @@ max-width: 2048px;
 -webkit-border-radius: 8px;
 -moz-border-radius: 8px;
 border-radius: 8px;
-box-shadow: 0 0 7px #000;
 z-index:101;
-}
-
-.stripe {
-display: block;
-width: 100%;
-position:absolute;
-top:45%;
-left:0;
-background: #acd373;
-color: #ACD373;
-font-size: 64px;
-font-size: 4rem;
-font-weight: 700;
--webkit-border-radius: 16px;
--moz-border-radius: 16px;
-border-radius: 16px;
-z-index: 10;
 }
 
 .posts_list {
@@ -140,7 +121,7 @@ position:absolute;
 top:0;
 height:100%;
 width:47%;
-color: #fff;
+color: #888;
 z-index:120;
 }
 
@@ -157,7 +138,7 @@ font-weight: 700;
 
 a.comic_nav:hover {
 text-decoration: none;
-color: #333;
+color: #222;
 }
 
 a.comic_nav_prev {
@@ -172,9 +153,8 @@ text-align:right;
 
 .footer {
 display: block;
-background: #111;
 clear: both;
-color: #eee;
+color: #888;
 line-height:25px;
 padding: 10px 0;
 text-align:center;
@@ -276,7 +256,7 @@ display: none;
 .patreon_spotlight a { text-decoration: underline;}
 
 .patreon_spotlight input {
-background: #ff7f29;
+background: #aaa;
 border: 0; color: #fff; padding: 15px 0;
 font-size: 16px;
 font-size:1rem;
@@ -286,20 +266,11 @@ border-radius: 10px;
 }
 
 .patreon_spotlight input:hover {
-background: orange;
+background: #ff7f29;
 cursor: pointer;
 }
 
 /* Small screen */
-
-@media all and (max-width: 1240px) {
- 
-.stripe,a.comic_nav span {
-  font-size: 40px;
-font-size: 2.5rem;
- }
-
-}
 
 @media all and (max-width: 840px) {
  
