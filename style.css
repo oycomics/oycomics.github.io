@@ -133,7 +133,6 @@ width:100%;
 margin-top: -0.07em;
 font-size: 64px;
 font-size: 4rem;
-font-weight: 700;
 }
 
 a.comic_nav:hover {
@@ -142,12 +141,10 @@ color: #222;
 }
 
 a.comic_nav_prev {
-left:3px;
 text-align:left;
 }
 
 a.comic_nav_next {
-right:3px;
 text-align:right;
 }
 
@@ -156,7 +153,6 @@ display: block;
 clear: both;
 color: #888;
 line-height:25px;
-padding: 10px 0;
 text-align:center;
 z-index: 50;
 }
@@ -240,7 +236,7 @@ text-transform: uppercase;
 .archive ul.posts_list li a:hover,
 .archive ul.posts_list li:first-child a:hover{
 background: #555;
-color: #fff;
+color: #222;
 }
 
 /* Showcase */
@@ -252,8 +248,6 @@ display: none;
 /* Patreon */
 
 .patreon_spotlight p{ margin: 10px auto; text-align:center; width: 320px; color: #fff;}
-
-.patreon_spotlight a { text-decoration: underline;}
 
 .patreon_spotlight input {
 background: #aaa;
