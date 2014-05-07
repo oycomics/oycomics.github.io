@@ -1,7 +1,7 @@
 <div class='comic'>
 
 {% for post in site.posts limit: 2 %}
-<a class="comic_nav comic_nav_prev" href="{{ post.url }}" title="Previous Comic: {{post.title}}"><span>&lsaquo;</span></a>
+<a class="comic_nav comic_nav_prev" href="{{ post.url }}" title="Previous Comic: {{post.title}}"><span>&#10092;</span></a>
 {% endfor %}
 {{ content }}
 
