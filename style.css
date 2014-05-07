@@ -141,11 +141,13 @@ color: #222;
 }
 
 a.comic_nav_prev {
+left: 0;
 background: transparent url(/assets/img/prev.png) no-repeat left center;
 text-align:left;
 }
 
 a.comic_nav_next {
+right: 0;
 background: transparent url(/assets/img/next.png) no-repeat right center;
 text-align:right;
 }
