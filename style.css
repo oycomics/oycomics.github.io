@@ -154,14 +154,14 @@ color: #222;
 a.comic_nav_prev {
 left: 0;
 background: transparent url(/assets/img/prev.png) no-repeat left center;
-background-size: 8px 48px;
+background-size: 16px 96px;
 text-align:left;
 }
 
 a.comic_nav_next {
 right: 0;
 background: transparent url(/assets/img/next.png) no-repeat right center;
-background-size: 8px 48px;
+background-size: 16px 96px;
 text-align:right;
 }
 
