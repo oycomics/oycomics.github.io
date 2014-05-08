@@ -262,18 +262,18 @@ display: none;
 .patreon_spotlight p{ margin: 0 auto; text-align:center; width: 320px; color: #fff;}
 
 .patreon_spotlight input {
-background: #f0f0f0;
-border: 0;
-color: #888; padding: 12px 0;
-margin: 0 auto 10px;
-font-size: 16px;
-font-size:1rem;
--webkit-border-bottom-right-radius: 25%;
--webkit-border-bottom-left-radius: 25%;
--moz-border-radius-bottomright: 25%;
--moz-border-radius-bottomleft: 25%;
-border-bottom-right-radius: 25%;
-border-bottom-left-radius: 25%;
+background: #f0f0f0 !important;
+border: 0 !important;
+color: #888 !important; padding: 12px 0 !important;
+margin: 0 auto 10px !important;
+font-size: 16px !important;
+font-size:1rem !important;
+-webkit-border-bottom-right-radius: 25% !important;
+-webkit-border-bottom-left-radius: 25% !important;
+-moz-border-radius-bottomright: 25% !important;
+-moz-border-radius-bottomleft: 25% !important;
+border-bottom-right-radius: 25% !important;
+border-bottom-left-radius: 25% !important;
 }
 
 .patreon_spotlight input:hover {
