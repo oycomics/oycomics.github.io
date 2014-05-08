@@ -278,6 +278,7 @@ border-bottom-left-radius: 25%;
 
 .patreon_spotlight input:hover {
 background: #ff7f29;
+color: #fff;
 cursor: pointer;
 }
 
