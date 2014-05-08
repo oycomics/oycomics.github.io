@@ -23,7 +23,18 @@ text-align: center;
 background: #f1f1f1;
 padding: 5px 0 15px;
 margin: 0 auto -10px;
-
+-webkit-border-bottom-right-radius: 10px;
+-webkit-border-bottom-left-radius: 10px;
+-moz-border-radius-bottomright: 10px;
+-moz-border-radius-bottomleft: 10px;
+border-bottom-right-radius: 10px;
+border-bottom-left-radius: 10px;
+-webkit-border-bottom-right-radius: 25%;
+-webkit-border-bottom-left-radius: 25%;
+-moz-border-radius-bottomright: 25%;
+-moz-border-radius-bottomleft: 25%;
+border-bottom-right-radius: 25%;
+border-bottom-left-radius: 25%;
 }
 
 h1.title a {
@@ -76,9 +87,20 @@ z-index:9;
 display: block;
 margin: -15px auto 0;
 background: #f1f1f1;
-
 padding: 20px 0 12px;
 text-align: center;
+-webkit-border-top-left-radius: 10px;
+-webkit-border-top-right-radius: 10px;
+-moz-border-radius-topleft: 10px;
+-moz-border-radius-topright: 10px;
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+-webkit-border-top-left-radius: 25%;
+-webkit-border-top-right-radius: 25%;
+-moz-border-radius-topleft: 25%;
+-moz-border-radius-topright: 25%;
+border-top-left-radius: 25%;
+border-top-right-radius: 25%;
 z-index:2;
 }
 
@@ -96,7 +118,6 @@ a.nav_item:hover {
 .comic {
 text-align: center;
 padding: 0;
-background: ;
 margin: 0 auto;
 z-index:100;
 }
@@ -264,6 +285,9 @@ font-size:1rem;
 -webkit-border-radius: 10px;
 -moz-border-radius: 10px;
 border-radius: 10px;
+-webkit-border-radius: 25%;
+-moz-border-radius: 25%;
+border-radius: 25%;
 }
 
 .patreon_spotlight input:hover {
