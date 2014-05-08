@@ -71,6 +71,7 @@ list-style-type:none;
 }
 
 .site {
+background: #f9f9f9;
 z-index:3;
 }
 
@@ -129,6 +130,7 @@ max-width: 2048px;
 -moz-border-radius: 10px;
 border-radius: 10px;
 border-radius: 5%;
+box-shadow: 0 3px 10px 1px #eee;
 z-index:101;
 }
 
@@ -275,19 +277,27 @@ display: none;
 
 /* Patreon */
 
-.patreon_spotlight p{ margin: 10px auto; text-align:center; width: 320px; color: #fff;}
+.patreon_spotlight p{ margin: 0 auto; text-align:center; width: 320px; color: #fff;}
 
 .patreon_spotlight input {
-background: #aaa;
-border: 0; color: #fff; padding: 15px 0;
+background: #f0f0f0;
+border: 0;
+color: #888; padding: 12px 0;
+margin: 0 auto 10px;
 font-size: 16px;
 font-size:1rem;
--webkit-border-radius: 10px;
--moz-border-radius: 10px;
-border-radius: 10px;
--webkit-border-radius: 25%;
--moz-border-radius: 25%;
-border-radius: 25%;
+-webkit-border-bottom-right-radius: 10px;
+-webkit-border-bottom-left-radius: 10px;
+-moz-border-radius-bottomright: 10px;
+-moz-border-radius-bottomleft: 10px;
+border-bottom-right-radius: 10px;
+border-bottom-left-radius: 10px;
+-webkit-border-bottom-right-radius: 25%;
+-webkit-border-bottom-left-radius: 25%;
+-moz-border-radius-bottomright: 25%;
+-moz-border-radius-bottomleft: 25%;
+border-bottom-right-radius: 25%;
+border-bottom-left-radius: 25%;
 }
 
 .patreon_spotlight input:hover {
