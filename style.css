@@ -22,7 +22,7 @@ h1.title {
 text-align: center;
 background: #f1f1f1;
 padding: 2px 0 12px;
-margin: 0 auto -10px;
+margin: 0 auto -5px;
 -webkit-border-bottom-right-radius: 25%;
 -webkit-border-bottom-left-radius: 25%;
 -moz-border-radius-bottomright: 25%;
@@ -89,7 +89,7 @@ z-index:9;
 
 .nav {
 display: block;
-margin: -15px auto 0;
+margin: -10px auto 0;
 background: #f9f9f9;
 padding: 20px 0 12px;
 text-align: center;
@@ -126,7 +126,7 @@ max-width: 2048px;
 -webkit-border-radius: 5%;
 -moz-border-radius: 5%;
 border-radius: 5%;
-box-shadow: 0 3px 10px 1px #eee;
+box-shadow: 0 3px 10px 1px #888;
 z-index:101;
 }
 
