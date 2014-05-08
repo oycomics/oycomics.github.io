@@ -107,7 +107,7 @@ max-width: 2048px;
 -webkit-border-radius: 10px;
 -moz-border-radius: 10px;
 border-radius: 10px;
-border-radius: 1%;
+border-radius: 5%;
 z-index:101;
 }
 
