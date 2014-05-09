@@ -314,13 +314,13 @@ width: 90%;
 
 /* Responsive Comics */
 
-.landscape { display: block; }
+.landscape { display: block !important; }
  
 .portrait { display: none; }
 
 @media all and (orientation: portrait) {
  
-.landscape { display: none; }
+.landscape { display: none !important; }
  
 .portrait { display: block; }
  
