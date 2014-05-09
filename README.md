@@ -39,7 +39,8 @@ To get started you will need:
 
 #####Daily
 
-	2048x653
+	H 2048x653
+	V 1536×1956
 
 #####Sunday
 
