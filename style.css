@@ -303,3 +303,19 @@ max-height: 90%;
 }
 
 }
+
+/* Responsive Comics */
+
+
+@media all and (orientation: portrait) {
+ 
+.landscape { display: none; }
+ 
+.portrait { display: block; }
+ 
+ }
+ 
+ 
+ 
+ 
+ 
