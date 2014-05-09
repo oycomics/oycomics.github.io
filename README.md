@@ -44,7 +44,8 @@ To get started you will need:
 
 #####Sunday
 
-	2048x1422
+	H 2048x1422
+	V 1536x1904
 
 ####FILENAME
 
