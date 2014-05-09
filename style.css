@@ -13,7 +13,7 @@ margin:0;
 background: #faf9f7;
 color:#333;
 font-size: 16px;
-font-size:1rem;
+font-size: 1rem;
 font-family:arial,sans-serif;
 z-index:1;
 }
@@ -294,7 +294,12 @@ cursor: pointer;
 /* Small screen */
 
 @media all and (max-width: 840px) {
- 
+
+body {
+font-size: 12px;
+font-size: 0.75rem;
+} 
+
 .comic img {
 width: 90%;
 }
