@@ -295,7 +295,8 @@ cursor: pointer;
 
 @media all and (max-width: 840px) {
 
-body {
+body,
+h1.title a span {
 font-size: 12px;
 font-size: 0.75rem;
 } 
@@ -322,8 +323,3 @@ width: 90%;
 .portrait { display: block; }
  
  }
- 
- 
- 
- 
- 
