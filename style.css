@@ -125,7 +125,7 @@ max-width: 2048px;
 -webkit-border-radius: 5%;
 -moz-border-radius: 5%;
 border-radius: 5%;
-
+margin: 0 auto;
 z-index:101;
 }
 
