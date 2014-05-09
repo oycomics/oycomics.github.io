@@ -300,6 +300,11 @@ font-size: 12px;
 font-size: 0.75rem;
 } 
 
+h1.title a {
+font-size: 16px;
+font-size: 1rem;
+}
+
 .comic img {
 width: 90%;
 }
