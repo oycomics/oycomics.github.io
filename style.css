@@ -306,6 +306,7 @@ max-height: 90%;
 
 /* Responsive Comics */
 
+.portrait { display: none; }
 
 @media all and (orientation: portrait) {
  
