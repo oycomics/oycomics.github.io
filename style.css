@@ -48,14 +48,13 @@ z-index:9;
 display: block;
 margin: 0 auto;
 background: #f1f1f1;
-padding: 12px 0;
 text-align: center;
 z-index:2;
 }
 
 a.nav_item {
 display: inline;
-padding: 22px 12px;
+padding: 20px 8px;
 text-align: center;
 z-index:6;
 }
