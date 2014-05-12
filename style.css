@@ -44,17 +44,20 @@ z-index:9;
 
 .nav {
 display: block;
+width: 220px;
+height: 40px;
+line-height: 40px;
 margin: 0 auto;
-background: #f1f1f1;
+background: orange;
 text-align: center;
 z-index:2;
 }
 
 a.nav_item {
-display: inline;
-height: 30px;
-line-height: 30px;
-padding: 0 8px;
+display: block;
+float: left;
+width: 60px;
+border: 1px solid blue;
 text-align: center;
 z-index:6;
 }
@@ -123,8 +126,6 @@ text-align:right;
 .footer {
 display: block;
 clear: both;
-color: #888;
-background: #f1f1f1;
 line-height:25px;
 text-align:center;
 z-index: 50;
@@ -209,36 +210,6 @@ background: #333;
 color: #fff;
 }
 
-/* Showcase */
-
-.showcase {
-display: none;
-}
-
-/* Patreon */
-
-.patreon_spotlight p{ margin: 0 auto; text-align:center; width: 320px; color: #fff;}
-
-.patreon_spotlight input {
-background: #f0f0f0 !important;
-border: 0 !important;
-color: #888 !important; padding: 12px 0 !important;
-margin: 0 auto 10px !important;
-font-size: 16px !important;
-font-size:1rem !important;
--webkit-border-bottom-right-radius: 25% !important;
--webkit-border-bottom-left-radius: 25% !important;
--moz-border-radius-bottomright: 25% !important;
--moz-border-radius-bottomleft: 25% !important;
-border-bottom-right-radius: 25% !important;
-border-bottom-left-radius: 25% !important;
-}
-
-.patreon_spotlight input:hover {
-background: #ff7f29;
-color: #fff;
-cursor: pointer;
-}
 
 /* Small screen */
 
