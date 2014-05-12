@@ -20,7 +20,6 @@ z-index:1;
 
 h1.title {
 text-align: center;
-background: #f1f1f1;
 padding: 5px 0;
 margin: 0 auto;
 }
@@ -59,7 +58,6 @@ list-style-type:none;
 }
 
 .site {
-background: #222222;
 z-index:3;
 }
 
@@ -93,6 +91,7 @@ a.nav_item:hover {
 }
 
 .comic {
+background:#222;
 text-align: center;
 margin: 5px auto;
 padding: 0;
