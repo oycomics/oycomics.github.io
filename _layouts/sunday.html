@@ -9,12 +9,8 @@
 </head>
 <body>
 <div class="site">
-{% include title.html %}
-<div class="comic sunday">
-{% include comic_nav.html %}
-{{ content }}
-</div>
-{% include footer.html %}
+<div class="comic sunday">{% include comic_nav.html %}{{ content }}
+</div>{% include footer.html %}
 </div>
 </body>
 </html>
