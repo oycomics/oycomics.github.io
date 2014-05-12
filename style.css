@@ -246,6 +246,11 @@ cursor: pointer;
 
 @media all and (max-width: 840px) {
 
+body {
+font-size: 12px;
+font-size: 0.75rem;
+}
+
 .comic img {
 width: 90% !important;
 }
