@@ -245,7 +245,7 @@ cursor: pointer;
 
 /* Small screen */
 
-@media all and (max-width: 840px) {
+@media all and (max-width: 640px) {
 
 body {
 font-size: 12px;
