@@ -84,11 +84,17 @@ border-top-left-radius: 5px;
 border-bottom-left-radius: 5px;
 }
 
+a.title_link span {
+font-size: 12px;
+font-size: 0.75rem;
+}
+
 a.archive_link {
 border-top: 1px solid #757575;
 border-bottom: 1px solid #757575;
 border-left: 1px solid #4d4d4d;
 border-right: 1px solid #4d4d4d;
+padding: 0 0 1px 0;
 }
 
 a.patreon_link {
@@ -101,6 +107,7 @@ border-color: #757575;
 -moz-border-radius-bottomright: 5px;
 border-top-right-radius: 5px;
 border-bottom-right-radius: 5px;
+padding: 0 0 1px 0;
 }
 
 a.nav_item:hover {
