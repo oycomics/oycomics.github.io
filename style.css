@@ -5,12 +5,12 @@ position:relative;
 }
 
 html {
-background: #faf9f7;
+background: #f1f1f1;
 }
 
 body {
 margin:0;
-background: #faf9f7;
+background: #f1f1f1;
 color:#333;
 font-size: 16px;
 font-size: 1rem;
@@ -20,15 +20,9 @@ z-index:1;
 
 h1.title {
 text-align: center;
-background: #faf9f7;
+background: #f1f1f1;
 padding: 5px 0;
 margin: 0 auto;
--webkit-border-bottom-right-radius: 15%;
--webkit-border-bottom-left-radius: 15%;
--moz-border-radius-bottomright: 15%;
--moz-border-radius-bottomleft: 15%;
-border-bottom-right-radius: 15%;
-border-bottom-left-radius: 15%;
 }
 
 h1.title a {
@@ -81,15 +75,9 @@ z-index:9;
 .nav {
 display: block;
 margin: 0 auto;
-background: #faf9f7;
+background: #f1f1f1;
 padding: 12px 0;
 text-align: center;
--webkit-border-top-left-radius: 15%;
--webkit-border-top-right-radius: 15%;
--moz-border-radius-topleft: 15%;
--moz-border-radius-topright: 15%;
-border-top-left-radius: 15%;
-border-top-right-radius: 15%;
 z-index:2;
 }
 
@@ -131,11 +119,11 @@ height:100%;
 width:47%;
 color: #888;
 z-index:120;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=75)";
-  filter: alpha(opacity=75);
-  -moz-opacity: 0.75;
-  -khtml-opacity: 0.75;
-  opacity: 0.75;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=74)";
+  filter: alpha(opacity=74);
+  -moz-opacity: 0.74;
+  -khtml-opacity: 0.74;
+  opacity: 0.74;
 }
 
 a.comic_nav:hover {
@@ -166,7 +154,7 @@ text-align:right;
 display: block;
 clear: both;
 color: #888;
-background: #faf9f7;
+background: #f1f1f1;
 line-height:25px;
 text-align:center;
 z-index: 50;
