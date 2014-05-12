@@ -44,14 +44,17 @@ z-index:9;
 
 .nav {
 display: block;
-width: 306px;
+width: 227px;
 height: 40px;
 line-height: 40px;
 margin: 10px auto;
 clear: both;
 text-align: center;
 z-index:2;
-box-shadow: 0 3px 5px #999;
+border-width: 1px;
+border-style: solid;
+border-color: #f1f1f1;
+box-shadow: 0 2px 3px #c5c5c5;
 -webkit-border-radius: 5px;
 -moz-border-radius: 5px;
 border-radius: 5px;
@@ -60,7 +63,7 @@ border-radius: 5px;
 a.nav_item {
 display: block;
 float: left;
-width: 100px;
+width: 75px;
 text-align: center;
 z-index:6;
 background: #ffffff;
@@ -76,9 +79,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 }
 
 a.title_link {
-border-width: 1px;
-border-style: solid;
-border-color: #f1f1f1;
+
 -webkit-border-top-left-radius: 5px;
 -webkit-border-bottom-left-radius: 5px;
 -moz-border-radius-topleft: 5px;
@@ -93,17 +94,14 @@ font-size: 0.75rem;
 }
 
 a.archive_link {
-border-top: 1px solid #f1f1f1;
-border-bottom: 1px solid #f1f1f1;
-border-left: 1px solid #f9f9f9;
-border-right: 1px solid #f9f9f9;
+border-width: 0 1px;
+border-style: solid;
+border-color: #f1f1f1;
 padding: 0 0 1px 0;
 }
 
 a.patreon_link {
-border-width: 1px;
-border-style: solid;
-border-color: #f1f1f1;
+
 -webkit-border-top-right-radius: 5px;
 -webkit-border-bottom-right-radius: 5px;
 -moz-border-radius-topright: 5px;
@@ -129,7 +127,10 @@ z-index:100;
 width: 95% !important;
 max-width: 2048px !important;
 margin: 0 auto;
-box-shadow: 0 1px 3px #999;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+box-shadow: 0 2px 3px #c5c5c5;
 z-index:101;
 }
 
