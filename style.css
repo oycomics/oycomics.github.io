@@ -248,7 +248,7 @@ color: #fff;
 
 /* Small screen */
 
-@media all and (max-width: 640px) {
+@media all and (max-width: 840px) {
 
 .comic img {
 width: 90% !important;
