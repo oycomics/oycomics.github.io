@@ -161,14 +161,14 @@ color: #222;
 
 a.comic_nav_prev {
 left: 5px;
-background: transparent url(/assets/img/prev.png) no-repeat left center;
+background: transparent url(/assets/img/pr.png) no-repeat left center;
 background-size: 16px 96px;
 text-align:left;
 }
 
 a.comic_nav_next {
 right: 5px;
-background: transparent url(/assets/img/next.png) no-repeat right center;
+background: transparent url(/assets/img/nx.png) no-repeat right center;
 background-size: 16px 96px;
 text-align:right;
 }
