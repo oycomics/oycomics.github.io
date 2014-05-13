@@ -42,7 +42,7 @@ z-index:9;
 display: block;
 width: 227px;
 height: 40px;
-line-height: 40px;
+overflow: hidden;
 margin: 10px auto;
 clear: both;
 text-align: center;
@@ -110,6 +110,10 @@ background: -o-linear-gradient(top,  #e2e2e2 0%,#dbdbdb 50%,#d1d1d1 51%,#fefefe 
 background: -ms-linear-gradient(top,  #e2e2e2 0%,#dbdbdb 50%,#d1d1d1 51%,#fefefe 100%);
 background: linear-gradient(to bottom,  #e2e2e2 0%,#dbdbdb 50%,#d1d1d1 51%,#fefefe 100%);
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e2e2e2', endColorstr='#fefefe',GradientType=0 );
+}
+
+a.nav_item img{
+margin-top: 8px;
 }
 
 .comic {
