@@ -267,11 +267,11 @@ font-weight:700;
 }
 
 .archive ul.posts_list li a:hover{
-border: 1px solid #999;
+background: #ededed;
 }
 
 .archive ul.posts_list li a.Sunday-archive:hover{
-border: 1px solid #febf04;
+background: #febf04;
 }
 
 /* Small screen */
