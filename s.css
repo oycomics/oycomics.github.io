@@ -182,9 +182,18 @@ display:none;
 
 /* ARCHIVE */
 
+
+.archive ul.posts_list {
+margin: 0 auto;
+text-align: center;
+width: 100%;
+max-width: 980px;
+}
+
+
 .archive ul.posts_list li {
 position: relative;
-float: left;
+display: inline-block;
 margin: 3px;
 text-align: center;
 }
@@ -192,8 +201,8 @@ text-align: center;
 .archive ul.posts_list li a {
 display: block;
 text-transform: lowercase;
-height: 70px;
-width: 175px;
+height: 52px;
+width: 135px;
 background: #fff;
 box-shadow: 0 2px 3px #f0f0f0;
 border: 1px solid #f0f0f0;
@@ -217,8 +226,8 @@ z-index: 124;
 top: 0;
 right: 0;
 z-index: 123;
-font-size: 64px;
-font-size: 4rem;
+font-size: 8px;
+font-size: 3rem;
 color: #f5f5f5;
 }
 
