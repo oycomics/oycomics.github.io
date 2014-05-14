@@ -4,8 +4,12 @@ title: Archive
 ---
 <div class="archive">
   <ul class="posts_list">
-    {% for post in site.posts %}
+    <!--- {% for post in site.posts %}
     <li><a href="{{ post.url }}" class='{{ post.date | date: "%A" }}-archive'>{{ post.date | date: "%x" }}</a></li>
+    {% endfor %} --->
+    {% for post in site.posts %}
+    <li><a href="{{ post.url }}" class='{{ post.date | date: "%A" }}-archive'>{{ post.date | date: "%x" }}>
+    <span class="archive_year">{{ post.date | date: "%Y" }}</span></a></li>
     {% endfor %}
   </ul>
 </div>
