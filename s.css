@@ -103,9 +103,12 @@ margin: 0 auto -27px;
 padding: 0 0 24px 0;
 border-bottom: 1px solid #ddd;
 box-shadow: 0 1px 24px #ddd;
--webkit-border-radius: 3%;
--moz-border-radius: 3%;
-border-radius: 3%;
+-webkit-border-bottom-right-radius: 3%;
+-webkit-border-bottom-left-radius: 3%;
+-moz-border-radius-bottomright: 3%;
+-moz-border-radius-bottomleft: 3%;
+border-bottom-right-radius: 3%;
+border-bottom-left-radius: 3%;
 z-index:100;
 }
 
