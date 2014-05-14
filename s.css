@@ -44,17 +44,19 @@ display: block;
 width: 227px;
 height: 40px;
 overflow: hidden;
-margin: 5px auto 10px;
+margin: -1px auto 10px;
+border-width: 0 1px 1px;
+border-style: solid;
+border-color: #ddd;
 clear: both;
 text-align: center;
 z-index:102;
-border-width: 1px;
-border-style: solid;
-border-color: #f1f1f1;
-box-shadow: 0 2px 3px #ddd;
--webkit-border-radius: 25%;
--moz-border-radius: 25%;
-border-radius: 25%;
+-webkit-border-bottom-right-radius: 10px;
+-webkit-border-bottom-left-radius: 10px;
+-moz-border-radius-bottomright: 10px;
+-moz-border-radius-bottomleft: 10px;
+border-bottom-right-radius: 10px;
+border-bottom-left-radius: 10px;
 }
 
 a.nav_item {
@@ -99,16 +101,14 @@ margin-top: 8px;
 .comic {
 background: #fff;
 text-align: center;
-margin: 0 auto -27px;
-padding: 0 0 24px 0;
+margin: 0 auto ;
 border-bottom: 1px solid #ddd;
-box-shadow: 0 1px 24px #ddd;
--webkit-border-bottom-right-radius: 3%;
--webkit-border-bottom-left-radius: 3%;
--moz-border-radius-bottomright: 3%;
--moz-border-radius-bottomleft: 3%;
-border-bottom-right-radius: 3%;
-border-bottom-left-radius: 3%;
+-webkit-border-bottom-right-radius: 10px;
+-webkit-border-bottom-left-radius: 10px;
+-moz-border-radius-bottomright: 10px;
+-moz-border-radius-bottomleft: 10px;
+border-bottom-right-radius: 10px;
+border-bottom-left-radius: 10px;
 z-index:100;
 }
 
