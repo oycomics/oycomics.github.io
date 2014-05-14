@@ -183,6 +183,7 @@ display:none;
 /* ARCHIVE */
 
 .archive ul.posts_list li {
+position: relative;
 float: left;
 margin: 3px;
 text-align: center;
@@ -190,9 +191,12 @@ text-align: center;
 
 .archive ul.posts_list li a {
 display: block;
-width: 80px;
-height: 60px;
-line-height: 60px;
+text-transform: lowercase;
+height: 70px;
+width: 175px;
+background: #fff;
+box-shadow: 0 2px 3px #f0f0f0;
+border: 1px solid #f0f0f0;
 -webkit-border-radius: 10px;
 -moz-border-radius: 10px;
 border-radius: 10px;
@@ -201,8 +205,31 @@ color: #888;
 background: #fff;
 }
 
+.archive ul.posts_list li span.archive_date { 
+position: absolute;
+bottom: 20px;
+color: #000;
+left: 10px;
+z-index: 124;
+}
+
+.archive ul.posts_list li span.archive_year { position: absolute;
+top: 0;
+right: 0;
+z-index: 123;
+font-size: 64px;
+font-size: 4rem;
+color: #f5f5f5;
+}
+
+
+
 .archive ul.posts_list li a.Sunday-archive {
 background: #fed159;
+}
+
+.archive ul.posts_list li a.Sunday-archive  span.archive_year{
+color: #fcdb81;
 }
 
 
@@ -212,8 +239,7 @@ font-weight:700;
 
 
 .archive ul.posts_list li a:hover{
-background: #4d4d4d;
-color: #fff;
+border: 1px solid #999;
 }
 
 /* Small screen */
