@@ -160,8 +160,7 @@ text-align:right;
 a.copyright {
 width: 225px;
 color: #000;
-margin: 0;
-float: right;
+margin: 0 auto;
 display:block;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
   filter: alpha(opacity=50);
