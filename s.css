@@ -157,14 +157,6 @@ background-size: 16px 96px;
 text-align:right;
 }
 
-.footer {
-display: block;
-clear: both;
-line-height:25px;
-text-align:center;
-z-index: 101;
-}
-
 a.copyright {
 width: 225px;
 color: #000;
