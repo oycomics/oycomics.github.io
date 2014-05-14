@@ -9,7 +9,7 @@ title: Archive
     {% endfor %} --->
     {% for post in site.posts %}
     <li><a href="{{ post.url }}" class='{{ post.date | date: "%A" }}-archive'>
-    <span class="archive_date">{{ post.date | date: "%a | %B %-d" }}</span>
+    <span class="archive_date">{{ post.date | date: "%a | %b %-d" }}</span>
     <span class="archive_year">{{ post.date | date: "%Y" }}</span></a></li>
     {% endfor %}
   </ul>
