@@ -27,6 +27,10 @@ list-style-type:none;
 
 .site {
 z-index:3;
+-webkit-transition: margin-left 1s ease-in-out;
+-moz-transition: margin-left 1s ease-in-out;
+-o-transition: margin-left 1s ease-in-out;
+transition: margin-left 1s ease-in-out;
 }
 
 .content {
