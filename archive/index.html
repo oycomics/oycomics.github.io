@@ -3,7 +3,7 @@ layout: archive
 title: Archive
 ---
 <div class="archive">
-<h3>{{ site.time | date: "%Y" }} Comics</h3>
+<h3>Comics Archive - {{ site.time | date: "%Y" }}</h3>
   {%for post in site.posts %}
     {% unless post.next %}
       <ul class="posts_list">
@@ -12,7 +12,7 @@ title: Archive
       {% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
       {% if year != nyear %}
         </ul>
-        <h3>{{ post.date | date: '%Y' }} Comics</h3>
+        <h3>{{ post.date | date: '%Y' }}</h3>
         <ul class="past">
       {% endif %}
     {% endunless %}
