@@ -89,7 +89,7 @@ background: #fff;
 text-align: center;
 margin: 0 auto;
 padding: 0 0 5px;
-box-shadow: 0 3px 5px #ddd;
+border-bottom: 1px solid #ddd;
 z-index:100;
 }
 
