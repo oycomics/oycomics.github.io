@@ -43,12 +43,6 @@ margin: 0 auto 10px;
 clear: both;
 text-align: center;
 z-index:102;
--webkit-border-bottom-right-radius: 30%;
--webkit-border-bottom-left-radius: 30%;
--moz-border-radius-bottomright: 30%;
--moz-border-radius-bottomleft: 30%;
-border-bottom-right-radius: 30%;
-border-bottom-left-radius: 30%;
 }
 
 a.nav_item {
@@ -59,12 +53,6 @@ text-align: center;
 z-index:6;
 background: #fff;
 padding: 0 0 10px 0;
--webkit-border-bottom-right-radius: 50%;
--webkit-border-bottom-left-radius: 50%;
--moz-border-radius-bottomright: 50%;
--moz-border-radius-bottomleft: 50%;
-border-bottom-right-radius: 50%;
-border-bottom-left-radius: 50%;
 }
 
 a.archive_link {
