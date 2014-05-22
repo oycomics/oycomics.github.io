@@ -16,7 +16,7 @@ title: Archive
   
   
   
-    <h3>{% if year != nyear %}</h3>
+    <h3>{{ site.time | date: "%Y" }}</h3>
   {%for post in site.posts %}
     {% unless post.next %}
       <ul class="this">
