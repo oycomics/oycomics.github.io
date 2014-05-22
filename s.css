@@ -40,16 +40,13 @@ width: 227px;
 height: 40px;
 overflow: hidden;
 margin: -2px auto 10px;
-box-shadow: 0 2px 4px #ddd;
+border: 1px solid #ddd;
 clear: both;
 text-align: center;
 z-index:102;
--webkit-border-bottom-right-radius: 10px;
--webkit-border-bottom-left-radius: 10px;
--moz-border-radius-bottomright: 10px;
--moz-border-radius-bottomleft: 10px;
-border-bottom-right-radius: 10px;
-border-bottom-left-radius: 10px;
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
 }
 
 a.nav_item {
