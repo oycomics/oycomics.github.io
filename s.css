@@ -39,7 +39,7 @@ display: block;
 width: 227px;
 height: 40px;
 overflow: hidden;
-margin: -22px auto 10px;
+margin: 0 auto 10px;
 border: 1px solid #ddd;
 clear: both;
 text-align: center;
@@ -84,7 +84,7 @@ margin-top: 8px;
 .comic {
 background: #fff;
 text-align: center;
-margin: 0 auto;
+margin: 0 auto -22px;
 padding: 0 0 22px;
 border-bottom: 1px solid #ddd;
 z-index:100;
