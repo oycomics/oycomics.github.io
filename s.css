@@ -179,27 +179,14 @@ text-align: center;
 width: 300px;
 }
 
-.archive ul.posts_list {
-margin: 0 auto;
-width: 100%;
-}
-
-
-.archive ul.posts_list li {
-position: relative;
-margin: 3px;
-}
+.archive  a{ color: #888 !important;}
 
 .archive ul.posts_list li:first-child {
 font-weight:700;
 }
 
 .archive ul.posts_list li a:hover{
-background: #ededed;
-}
-
-.archive ul.posts_list li a.Sunday-archive:hover{
-background: #febf04;
+color: #ededed;
 }
 
 /* Small screen */
