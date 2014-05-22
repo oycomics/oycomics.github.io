@@ -179,14 +179,18 @@ text-align: center;
 width: 300px;
 }
 
-.archive  a{ color: #888 !important;}
-
-.archive ul.posts_list li:first-child {
-font-weight:700;
+.archive li a {
+color: #888;
+text-transform: lowercase;
 }
 
-.archive ul.posts_list li a:hover{
-color: #ededed;
+.archive li:first-child a {
+font-weight:700;
+text-transform: uppercase;
+}
+
+.archive li a:hover{
+color: #222;
 }
 
 /* Small screen */
