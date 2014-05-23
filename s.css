@@ -185,6 +185,10 @@ text-transform: uppercase;
 color: #222;
 }
 
+archive li a:visited{
+color: #ccc;
+}
+
 /* Small screen */
 
 @media all and (max-width: 840px) {
