@@ -7,7 +7,7 @@
 <meta name="twitter:url" content="{{ site.url }}/">
 <meta property="og:url" content="{{ site.url }}/">
 </head>
-<body>
+<body onload="document.body.classList.add('loaded')">
 <div class="site home">
 <div class="homecomic">{{ content }}</div>
 {% include footer.html %}
