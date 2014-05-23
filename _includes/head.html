@@ -15,8 +15,21 @@
   </style>
 <![endif]-->
 <script type="text/javascript">
-		var fingerCount = 0;
-		var startX = 0;
+	var fingerCount = 0;
+	var startX = 0;
+		
+	function processingRoutine() {
+		
+	var swipedElement = document.getElementById(triggerElementID);
+	if ( swipeDirection == 'left' ) {
+
+		document.getElementById('comic_nav_prev').click();
+		
+	} else if ( swipeDirection == 'right' ) {
+
+		document.getElementById('comic_nav_next').click();
+	} 
+		
 </script>
 <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
 <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
