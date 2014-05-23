@@ -36,12 +36,13 @@ z-index:9;
 
 .nav {
 display: block;
-width: 277px;
+width: 307px;
 height: 40px;
 overflow: hidden;
 margin: 0 auto 10px;
 clear: both;
 text-align: center;
+background: #fff;
 z-index:102;
 }
 
@@ -79,7 +80,7 @@ a.nav_item img{
 margin-top: 8px;
 }
 
-.curve-block { float: left; display: block; height: 40px; width: 40px; background: #fff; }
+.curve-block { float: left; display: block; height: 40px; width: 40px; background: #86cc8b; }
 
 .curve-block-left { border-radius: 100%; }
 
