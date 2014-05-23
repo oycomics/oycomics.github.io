@@ -15,11 +15,11 @@ font-size: 16px;
 font-size: 1rem;
 font-family:arial,sans-serif;
 z-index:1;
-height: 0;
+left: -100px;
 }
 
 .loaded {
-height: auto;
+left: 0;
 }
 
 a {
