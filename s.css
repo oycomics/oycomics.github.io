@@ -44,6 +44,7 @@ clear: both;
 text-align: center;
 background: #fff;
 z-index:102;
+border-top: 1px solid #86cc8b;
 }
 
 a.nav_item {
