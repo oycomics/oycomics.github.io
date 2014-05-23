@@ -82,9 +82,13 @@ margin-top: 8px;
 
 .curve-block { float: left; display: block; height: 40px; width: 40px; background: #86cc8b; }
 
-.curve-block-left { border-radius: 100%; }
+.curve-block-left { -webkit-border-top-right-radius: 100%;
+-moz-border-radius-topright: 100%;
+border-top-right-radius: 100%; }
 
-.curve-block-right { border-radius: 100%; }
+.curve-block-right { -webkit-border-top-left-radius: 100%;
+-moz-border-radius-topleft: 100%;
+border-top-left-radius: 100%; }
 
 .comic {
 background: #fff;
