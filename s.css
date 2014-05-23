@@ -36,7 +36,7 @@ z-index:9;
 
 .nav {
 display: block;
-width: 307px;
+width: 227px;
 height: 40px;
 overflow: hidden;
 margin: 0 auto 10px;
@@ -79,16 +79,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 a.nav_item img{
 margin-top: 8px;
 }
-
-.curve-block { float: left; display: block; height: 40px; width: 40px; background: #86cc8b; }
-
-.curve-block-left { -webkit-border-top-right-radius: 100%;
--moz-border-radius-topright: 100%;
-border-top-right-radius: 100%; }
-
-.curve-block-right { -webkit-border-top-left-radius: 100%;
--moz-border-radius-topleft: 100%;
-border-top-left-radius: 100%; }
 
 .comic {
 background: #fff;
