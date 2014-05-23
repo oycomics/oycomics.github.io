@@ -36,7 +36,7 @@ z-index:9;
 
 .nav {
 display: block;
-width: 227px;
+width: 277px;
 height: 40px;
 overflow: hidden;
 margin: 0 auto 10px;
@@ -78,6 +78,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 a.nav_item img{
 margin-top: 8px;
 }
+
+.curve-block { float: left; display: block; height: 40px; width: 40px; background: #fff; }
+
+.curve-block-left { border-radius: 100%; }
+
+.curve-block-right { border-radius: 100%; }
 
 .comic {
 background: #fff;
