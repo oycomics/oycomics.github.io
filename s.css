@@ -161,6 +161,8 @@ display:none;
 
 /* ARCHIVE */
 
+.quotes { color:#fff; height: 150px; background: lightblue;}
+
 .archive {
 margin: 0 auto;
 text-align: center;
