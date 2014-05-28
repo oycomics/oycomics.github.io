@@ -127,9 +127,11 @@ background-size: 16px 96px;
 text-align:right;
 }
 
+.footer_border { 
+
+}
 .footer { 
-border-top: 3px solid #538855;
-background: #6DAB70;
+background: #7FC482;
 }
 
 a.copyright {
