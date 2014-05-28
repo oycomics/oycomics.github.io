@@ -40,10 +40,9 @@ display: block;
 width: 227px;
 height: 40px;
 overflow: hidden;
-margin: 0 auto 10px;
+margin: 0 auto;
 clear: both;
 text-align: center;
-
 z-index:102;
 border-top: 1px solid #86cc8b;
 }
@@ -141,12 +140,14 @@ background-size: 16px 96px;
 text-align:right;
 }
 
+.footer { background: #538855;}
+
 a.copyright {
-width: 225px;
 color: #fff;
-margin: 0 auto 10px;
+padding: 5px 0;
 text-align:center;
 display:block;
+background: #6DAB70;
 z-index:102;
 }
 
