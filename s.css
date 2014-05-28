@@ -133,15 +133,16 @@ text-align:right;
 }
 
 .footer { 
-border-top: 3px solid #2C582E;
-background: #538855;}
+border-top: 3px solid #538855;
+background: #6DAB70;
+}
 
 a.copyright {
 color: #fff;
 padding: 5px 0;
 text-align:center;
 display:block;
-background: #6DAB70;
+
 z-index:102;
 }
 
