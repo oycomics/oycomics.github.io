@@ -37,8 +37,8 @@ z-index:9;
 
 .nav {
 display: block;
-width: 225px;
-height: 40px;
+width: 180px;
+height: 60px;
 overflow: hidden;
 margin: 0 auto;
 clear: both;
@@ -50,10 +50,12 @@ z-index:102;
 a.nav_item {
 display: block;
 float: left;
-width: 75px;
+width: 60px;
+height: 40px;
+padding: 10px 0;
 text-align: center;
 z-index:6;
-padding: 0 0 10px 0;
+
 }
 
 a.archive_link {
@@ -141,7 +143,7 @@ background: #86cc8b;
 
 
 a.copyright {
-width: 225px;
+width: 180px;
 color: #fff;
 margin: 0 auto;
 padding: 5px 0;
