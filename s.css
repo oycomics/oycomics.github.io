@@ -166,7 +166,7 @@ display:none;
 
 #quotation { background:#fff;  height: 150px; padding: 25px 0;margin: 0 auto;}
 
-.quote_wrap { width: 225px; margin: 0 auto;  }
+.quote_wrap { width: 280px; margin: 0 auto;  }
 
 span.quote { display: block; text-align: justify; line-height: 20px; line-height: 1.25rem; color: #777;}
 
@@ -200,7 +200,8 @@ text-transform: uppercase;
 .archive li a:hover{
 background: #7FC482;
 }
-archive li a:visited{
+
+.archive li a:visited{
 color: red;
 }
 
