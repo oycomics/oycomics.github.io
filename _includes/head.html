@@ -19,8 +19,8 @@ var quotations = new Array()
 	quotes[2]= "<span class="quote">This is a quote 3.</span><br><span class="quote_source">~Source 3</span>"
 function display()
 {
-a=Math.floor(Math.random()*quotations.length)
-document.getElementById('quotation').innerHTML=quotations[a]
+a=Math.floor(Math.random()*quotes.length)
+document.getElementById('quotes').innerHTML=quotes[a]
 setTimeout("display()",3000)
 }
 </script>
