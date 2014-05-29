@@ -164,7 +164,14 @@ display:none;
 
 /* ARCHIVE */
 
-#quotation { background:#fff;  height: 150px; margin: 0 auto;  color: red;}
+#quotation { background:#fff;  height: 150px; padding: 25px 0;margin: 0 auto;}
+
+.quote_wrap { width: 225px; margin: 0 auto;  }
+
+span.quote { display: block; text-align: justify; line-height: 20px; line-height: 1.25rem; color: #777;}
+
+span.quote_source { display: block; text-align: right; color: #999;}
+
 
 .archive {
 margin: 0 auto;
