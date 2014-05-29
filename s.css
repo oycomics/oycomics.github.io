@@ -37,8 +37,8 @@ z-index:9;
 
 .nav {
 display: block;
-width: 180px;
-height: 60px;
+width: 240px;
+height: 80px;
 overflow: hidden;
 margin: 0 auto;
 clear: both;
@@ -50,8 +50,8 @@ z-index:102;
 a.nav_item {
 display: block;
 float: left;
-width: 60px;
-height: 40px;
+width: 80px;
+height: 60px;
 padding: 10px 0;
 text-align: center;
 z-index:6;
@@ -64,10 +64,6 @@ a.archive_link {
 
 a.nav_item:hover {
 background: #86cc8b;
-}
-
-a.nav_item img{
-margin-top: 8px;
 }
 
 .comic {
