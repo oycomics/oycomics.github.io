@@ -12,6 +12,18 @@
     }
   </style>
 <![endif]-->
+<script type="text/javascript">
+var quotations = new Array()
+	quotes[0]= "<span class="quote">This is a quote.</span><br><span class="quote_source">~Source</span>"
+	quotes[1]= "<span class="quote">This is a quote 2.</span><br><span class="quote_source">~Source 2</span>"
+	quotes[2]= "<span class="quote">This is a quote 3.</span><br><span class="quote_source">~Source 3</span>"
+function display()
+{
+a=Math.floor(Math.random()*quotations.length)
+document.getElementById('quotation').innerHTML=quotations[a]
+setTimeout("display()",3000)
+}
+</script>
 <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
 <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
 <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-29x29.png" />
