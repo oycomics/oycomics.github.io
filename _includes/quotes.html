@@ -1,3 +1,16 @@
-<div class="quotes">
-[quotes here]
+<script type="text/javascript">
+var quotations = new Array()
+	quotes[0]= "<span class="quote">This is a quote.</span><br><span class="quote_source">~Source</span>"
+	quotes[1]= "<span class="quote">This is a quote 2.</span><br><span class="quote_source">~Source 2</span>"
+	quotes[2]= "<span class="quote">This is a quote 3.</span><br><span class="quote_source">~Source 3</span>"
+function display()
+{
+a=Math.floor(Math.random()*quotations.length)
+document.getElementById('quotation').innerHTML=quotations[a]
+setTimeout("display()",3000)
+}
+</script>
+
+<div id="quotes" style="background-color:tan; width: 300px; height: 50px; padding: 15px 0 0 5px;">
+<script type="text/javascript">display()</script>
 </div>
