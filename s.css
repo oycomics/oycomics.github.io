@@ -185,7 +185,11 @@ font-weight: 400;
 }
 
 .archive li a {
+width: 225px;
+margin: 0 auto;
+display: block;
 color: #fff;
+padding: 5px 0;
 text-transform: lowercase;
 }
 
@@ -194,9 +198,8 @@ text-transform: uppercase;
 }
 
 .archive li a:hover{
-color: #222;
+background: #7FC482;
 }
-
 archive li a:visited{
 color: red;
 }
