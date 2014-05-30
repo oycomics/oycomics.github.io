@@ -3,7 +3,8 @@ layout: archive
 title: Archive
 ---
 <div class="archive">
-<h3>Comics Archive - {{ site.time | date: "%Y" }}</h3>
+<h2>Comics Archive</h2>
+<h3>{{ site.time | date: "%Y" }}</h3>
   {%for post in site.posts %}
     {% unless post.next %}
       <ul class="posts_list">
