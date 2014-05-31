@@ -38,9 +38,10 @@ z-index:9;
 .nav {
 display: block;
 width: 242px;
-height: 70px;
+height: 60px;
 overflow: hidden;
-margin: 0 auto;
+margin: -40px auto 0;
+padding: 40px 0 0 0;
 clear: both;
 text-align: center;
 z-index:102;
@@ -52,8 +53,6 @@ display: block;
 float: left;
 width: 80px;
 height: 60px;
-margin: 7px 0 0 ;
-padding: 0 0 3px;
 text-align: center;
 z-index:6;
 background: #7FC482;
@@ -75,9 +74,6 @@ a.patreon_link {
 
 a.nav_item:hover {
 background: #86cc8b;
-margin: 0;
-padding: 0 0 10px ;
-
 }
 
 .comic {
