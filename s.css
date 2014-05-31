@@ -45,7 +45,6 @@ margin: 0 auto;
 clear: both;
 text-align: center;
 z-index:102;
-background: #fff;
 }
 
 a.nav_item {
@@ -140,7 +139,7 @@ padding: 40px 0 0 0;
 }
 
 .copyright_wrap {
-background: #7fc482;
+background: #86cc8b;
 border-top: 1px solid #ededed;
 }
 
