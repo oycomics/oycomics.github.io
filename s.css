@@ -182,9 +182,13 @@ span.quote_source { display: block; text-align: right; color: #999;}
 
 .archive {
 margin: 0 auto;
-text-align: center;
+
 background: #86cc8b;
 }
+
+.archive .content { text-align: center; }
+
+.archive .footer { margin: 0 auto; padding: 0;}
 
 .archive h2 {
 color: #fff;
