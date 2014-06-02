@@ -38,7 +38,7 @@ z-index:9;
 
 .nwrap {
 display: block;
-background: #86cc8b;
+background: transparent url(/assets/img/t.png) repeat 0 0;
 position: fixed;
 width: 100%;
 height: 50px;
@@ -53,9 +53,6 @@ overflow: hidden;
 margin: 0 auto;
 clear: both;
 text-align: center;
-border-width: 0 0 0 1px;
-border-style: solid;
-border-color: #fff;
 z-index:102;
 }
 
@@ -64,17 +61,14 @@ display: block;
 float: left;
 width: 70px;
 height: 50px;
-color: #fff;
-border-width: 0 1px 0 0;
-border-style: solid;
-border0-color: #fff;
+color: #222;
+
 text-align: center;
 z-index:6;
-background: #86cc8b;
 }
 
 a.nitem:hover {
-background: #222;
+background: #eee;
 }
 
 a.copyright_email {
