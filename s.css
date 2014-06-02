@@ -147,13 +147,16 @@ display:none;
 
 .archive {
 margin: 0 auto;
+
 }
 
-.archive .content { text-align: center; }
+.archive .content { text-align: center; 
+padding: 50px 0 0;
+}
 
 
 .archive h2 {
-color: #777;
+color: #222;
 font-size: 32px;
 font-size: 2rem;
 font-weight: 400;
