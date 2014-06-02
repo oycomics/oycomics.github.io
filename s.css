@@ -36,9 +36,9 @@ margin: 0 auto;
 z-index:9;
 }
 
-.nav {
+.n {
 display: block;
-width: 250px;
+width: 450px;
 height: 60px;
 overflow: hidden;
 margin: 0 auto;
@@ -47,7 +47,7 @@ text-align: center;
 z-index:102;
 }
 
-a.nav_item {
+a.nitem {
 display: block;
 float: left;
 width: 80px;
@@ -60,19 +60,7 @@ background: #86cc8b;
 border-radius: 10px;
 }
 
-a.archive_link {
-margin: 0 5px;
-}
-
-a.title_link {
-
-}
-
-a.patreon_link {
-
-}
-
-a.nav_item:hover {
+a.nitem:hover {
 background: #7FC482;
 }
 
@@ -133,54 +121,11 @@ background-size: 16px 96px;
 text-align:right;
 }
 
-.footer { 
-
-}
-
-.copyright_wrap {
-
-}
-
-
-a.copyright {
-width: 250px;
-color: #fff;
-margin: 5px auto;
-padding: 20px 0;
-text-align:center;
-background: #86cc8b;
--webkit-border-radius: 10px;
--moz-border-radius: 10px;
-border-radius: 10px;
-display:block;
-z-index:102;
-
-}
-
-a.copyright:hover {
-background: #7FC482;
-}
-
-a.copyright img {
-margin: 0 0 -6px 0;
-}
-
 .home a.comic_nav_prev:first-child {
 display:none;
 }
 
 /* ARCHIVE */
-
-#quotation { background:#fff;  height: 125px; padding: 50px 0;margin: 0 auto;
-background: #fff;
-}
-
-.quote_wrap { width: 280px; margin: 0 auto;  }
-
-span.quote { display: block; text-align: justify; line-height: 20px; line-height: 1.25rem; color: #777;}
-
-span.quote_source { display: block; text-align: right; color: #999;}
-
 
 .archive {
 margin: 0 auto;
@@ -188,7 +133,6 @@ margin: 0 auto;
 
 .archive .content { text-align: center; }
 
-.archive .footer { margin: 0 auto;}
 
 .archive h2 {
 color: #777;
