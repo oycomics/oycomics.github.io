@@ -5,7 +5,7 @@ position:relative;
 }
 
 html {
-background: #86cc8b;
+background: #fff;
 }
 
 body {
@@ -136,23 +136,22 @@ text-align:right;
 }
 
 .footer { 
-background: #ededed;
-margin: -130px auto 0;
-padding: 140px 0 0 0;
+
 }
 
 .copyright_wrap {
-background: #86cc8b;
-border-top: 1px solid #fff;
+
 }
 
 
 a.copyright {
-width: 240px;
+width: 242px;
 color: #fff;
 margin: 0 auto;
 padding: 10px 0;
+border-top: 1px solid #fff;
 text-align:center;
+background: #86cc8b;
 display:block;
 z-index:102;
 
