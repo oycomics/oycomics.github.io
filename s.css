@@ -44,6 +44,9 @@ overflow: hidden;
 margin: 0 auto;
 clear: both;
 text-align: center;
+border-width: 1px 1px 0;
+border-style: solid;
+border-color: #fff;
 z-index:102;
 }
 
@@ -54,13 +57,13 @@ width: 80px;
 height: 60px;
 text-align: center;
 z-index:6;
-background: #7FC482;
+background: #86cc8b;
 }
 
 a.archive_link {
 border-width: 0 1px;
 border-style: solid;
-border-color: #ededed;
+border-color: #fff;
 }
 
 a.title_link {
@@ -72,7 +75,7 @@ a.patreon_link {
 }
 
 a.nav_item:hover {
-background: #86cc8b;
+background: #7FC482;
 }
 
 .comic {
@@ -140,7 +143,7 @@ padding: 140px 0 0 0;
 
 .copyright_wrap {
 background: #86cc8b;
-border-top: 1px solid #ededed;
+border-top: 1px solid #fff;
 }
 
 
