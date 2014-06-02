@@ -62,7 +62,6 @@ float: left;
 width: 70px;
 height: 50px;
 color: #222;
-
 text-align: center;
 z-index:6;
 }
@@ -147,7 +146,6 @@ display:none;
 
 .archive {
 margin: 0 auto;
-
 }
 
 .archive .content { text-align: center; 
@@ -180,15 +178,11 @@ text-transform: lowercase;
 
 .archive li:first-child a {
 text-transform: uppercase;
+font-weight: 700;
 }
 
 .archive li a:hover{
-color: #fff;
-background: #7FC482;
-}
-
-.archive li a:visited{
-color: ;
+background: #eee;
 }
 
 /* Small screen */
