@@ -205,18 +205,6 @@ width: 85% !important;
 
 }
 
-/* Responsive Comics */
-
-.landscape { display: block !important; }
-.portrait { display: none; }
-
-@media all and (orientation: portrait) {
- 
-.landscape { display: none !important; }
-.portrait { display: block; }
- 
- }
-
 /*!
  * Hover.css (http://ianlunn.co.uk/)
  * Version: 1.0.8
