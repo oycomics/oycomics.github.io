@@ -57,6 +57,7 @@ z-index:9;
 display: block;
 background: transparent url(/assets/img/t.png) repeat 0 0;
 position: fixed;
+bottom:0;
 width: 100%;
 height: 50px;
 z-index: 1000;
@@ -100,7 +101,7 @@ a.copyright_email img {
 .comic {
 text-align: center;
 margin: 0 auto;
-padding: 50px 0;
+padding: 0 0 50px;
 z-index:100;
 }
 
