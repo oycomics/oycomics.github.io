@@ -10,16 +10,17 @@ background-color: #fff;
 background-repeat: no-repeat;
 background-position: center;
 background-attachment: fixed;
-background-size: 200%;
+background-size: 1000%;
 }
 
 body {
 height: 100%;
+padding: 0 0 50px ;
+background: transparent url(/assets/img/t.png) repeat 0 0;
 color:#333;
 font-size: 16px;
 font-size: 1rem;
 font-family:arial,sans-serif;
-overflow: hidden;
 z-index:1;
 }
 
@@ -51,8 +52,7 @@ margin: 10px auto;
 
 .site {
 z-index:3;
-height: 9999px;
-background: transparent url(/assets/img/t.png) repeat 0 0;
+
 }
 
 .content {
