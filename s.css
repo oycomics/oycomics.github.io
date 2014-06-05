@@ -15,7 +15,6 @@ background-size: 200%;
 
 body {
 height: 100%;
-background: transparent url(/assets/img/t.png) repeat 0 0;
 color:#333;
 font-size: 16px;
 font-size: 1rem;
@@ -51,7 +50,8 @@ margin: 10px auto;
 
 .site {
 z-index:3;
-
+height: 100%;
+background: transparent url(/assets/img/t.png) repeat 0 0;
 }
 
 .content {
