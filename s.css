@@ -51,7 +51,6 @@ margin: 10px auto;
 
 .site {
 z-index:3;
-padding: 0 0 50px;
 background: transparent url(/assets/img/t.png) repeat 0 0;
 }
 
@@ -106,6 +105,7 @@ a.copyright_email img {
 }
 
 .comic {
+padding: 0 0 50px;
 text-align: center;
 margin: 0 auto;
 z-index:100;
