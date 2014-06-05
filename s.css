@@ -9,7 +9,11 @@ background: #fff;
 }
 
 body {
-background: transparent;
+background-color: transparent;
+background-repeat: no-repeat;
+background-position: center;
+background-attachment: fixed;
+background-size: cover;
 color:#333;
 font-size: 16px;
 font-size: 1rem;
