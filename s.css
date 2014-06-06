@@ -6,10 +6,6 @@ position:relative;
 
 html {
 background-color: #fff;
-background-repeat: no-repeat;
-background-position: center;
-background-attachment: fixed;
-background-size: 1000%;
 }
 
 body {
@@ -21,7 +17,6 @@ font-family:arial,sans-serif;
 z-index:1;
 }
 
-
 a {
 text-decoration:none;
 }
@@ -29,7 +24,6 @@ text-decoration:none;
 ul {
 list-style-type:none;
 }
-
 
 h2 {
 color: #222;
@@ -49,7 +43,6 @@ margin: 10px auto;
 
 .site {
 z-index:3;
-
 }
 
 .content {
@@ -95,11 +88,6 @@ background: #eee;
 a.copyright_email {
 height: 45px;
 padding: 5px 0 0 0;
-}
-
-
-a.copyright_email img {
-
 }
 
 .comic {
