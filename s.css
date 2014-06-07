@@ -42,6 +42,7 @@ margin: 10px auto;
 }
 
 .site {
+padding: 0 0 50px;
 z-index:3;
 }
 
@@ -91,7 +92,6 @@ padding: 5px 0 0 0;
 }
 
 .comic {
-padding: 0 0 50px;
 text-align: center;
 margin: 0 auto;
 z-index:100;
