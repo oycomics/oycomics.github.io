@@ -5,7 +5,7 @@ position:relative;
 }
 
 html {
-background: #97ad69;
+background: #acc3ac;
 }
 
 body {
@@ -53,15 +53,15 @@ z-index:9;
 .nwrap {
 display: block;
 width: 100%;
-height: 50px;
-background: #c0c26a;
+height: 55px;
+background: #fff;
 z-index: 1000;
 }
 
 .n {
 display: block;
 width: 284px;
-height: 50px;
+height: 55px;
 overflow: hidden;
 margin: 0 auto;
 clear: both;
@@ -73,28 +73,29 @@ a.nitem {
 display: block;
 float: left;
 width: 70px;
-height: 50px;
+height: 55px;
 color: #222;
 text-align: center;
 z-index:6;
 }
 
 a.nitem:hover {
-background: #97ad69;
+background: #acc3ac;
 }
 
 a.copyright_email {
-height: 45px;
+height: 50px;
 padding: 5px 0 0 0;
 }
 
 .comic {
 text-align: center;
 margin: 0 auto;
-z-index:100;
+z-index:1001;
 background: #fff;
-border-top: 1px solid #333;
-border-bottom: 1px solid #333;
+border-top: 1px solid #97ad69;
+border-bottom: 1px solid #97ad69;
+box-shadow: 0 2px 7px #284e5e;
 }
 
 .comic img {
