@@ -55,6 +55,7 @@ display: block;
 width: 100%;
 height: 55px;
 background: #d7dbbe;
+border-bottom: 1px solid #347549;
 z-index: 1000;
 }
 
@@ -93,7 +94,6 @@ text-align: center;
 margin: 0 auto;
 z-index:1001;
 background: #fff;
-border-top: 1px solid #347549;
 border-bottom: 1px solid #347549;
 }
 
