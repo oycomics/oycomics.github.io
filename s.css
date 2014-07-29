@@ -5,7 +5,7 @@ position:relative;
 }
 
 html {
-background: #acc3ac;
+background: #c0c26a;
 }
 
 body {
@@ -54,7 +54,7 @@ z-index:9;
 display: block;
 width: 100%;
 height: 55px;
-background: #fff;
+background: #d7dbbe;
 z-index: 1000;
 }
 
