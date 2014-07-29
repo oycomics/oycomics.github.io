@@ -93,9 +93,8 @@ text-align: center;
 margin: 0 auto;
 z-index:1001;
 background: #fff;
-border-top: 1px solid #97ad69;
-border-bottom: 1px solid #97ad69;
-box-shadow: 0 2px 7px #284e5e;
+border-top: 1px solid #347549;
+border-bottom: 1px solid #347549;
 }
 
 .comic img {
