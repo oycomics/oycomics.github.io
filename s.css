@@ -166,7 +166,7 @@ margin: 0 auto;
 width: 240px;
 margin: 0 auto;
 display: block;
-color: #777;
+color: #fff;
 padding: 5px 0;
 text-transform: lowercase;
 }
@@ -177,6 +177,7 @@ font-weight: 700;
 }
 
 .archive li a:hover{
+color: #777;
 background: #eee;
 }
 
