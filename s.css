@@ -5,7 +5,7 @@ position:relative;
 }
 
 html {
-background: #97ad69;
+background: #fff;
 }
 
 body {
@@ -54,8 +54,7 @@ z-index:9;
 display: block;
 width: 100%;
 height: 55px;
-background: #d7dbbe;
-border-bottom: 1px solid #347549;
+background: #fff;
 z-index: 1000;
 }
 
@@ -83,7 +82,7 @@ z-index:6;
 }
 
 a.nitem:hover {
-background: #fff;
+background: #ddd;
 }
 
 a.copyright_email {
@@ -96,7 +95,6 @@ text-align: center;
 margin: 0 auto;
 z-index:1001;
 background: #fff;
-border-bottom: 1px solid #347549;
 }
 
 .comic img {
