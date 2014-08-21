@@ -26,7 +26,7 @@ list-style-type:none;
 }
 
 h2 {
-color: #f1f1f1;
+color: #777;
 font-size: 32px;
 font-size: 2rem;
 font-weight: 400;
@@ -34,7 +34,7 @@ margin: 15px auto;
 }
 
 h3 {
-color: #f9f9f9;
+color: #777;
 font-size: 24px;
 font-size: 1.5rem;
 font-weight: 700;
@@ -82,7 +82,7 @@ z-index:6;
 }
 
 a.nitem:hover {
-background: #ddd;
+background: #eee;
 }
 
 a.copyright_email {
@@ -166,7 +166,7 @@ margin: 0 auto;
 width: 240px;
 margin: 0 auto;
 display: block;
-color: #fff;
+color: #222;
 padding: 5px 0;
 text-transform: lowercase;
 }
@@ -177,7 +177,7 @@ font-weight: 700;
 }
 
 .archive li a:hover{
-color: #777;
+color: #222;
 background: #eee;
 }
 
