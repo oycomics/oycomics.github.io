@@ -190,6 +190,10 @@ background: #eee;
 
 .socialwrap { height: 50px; line-height: 50px; padding: 25px 0 0; margin: -25px auto 0;  background: #222; z-index: 2; color: #fff; text-align: center;}
 
+.socialwrap a { color: #fff;}
+
+.socialwrap a:hover { color: #ccff99;}
+
 .s {}
 
 .footerwrap { height: 50px; line-height: 50px; z-index: 2; color: #fff; text-align: center;}
