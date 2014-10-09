@@ -46,7 +46,7 @@ z-index:3;
 }
 
 .content {
-width: 95%;
+width: 94%;
 margin: 0 auto;
 padding: 25px;
 background: #fff;
@@ -108,7 +108,7 @@ z-index:1001;
 }
 
 .comic img {
-width: 95% !important;
+width: 94% !important;
 max-width: 2048px !important;
 margin: 0 auto;
 z-index:101;
