@@ -46,7 +46,7 @@ z-index:3;
 }
 
 .content {
-width: 90%;
+width: 95%;
 margin: 0 auto;
 padding: 25px;
 background: #fff;
@@ -203,7 +203,7 @@ background: #eee;
 
 @media all and (max-width: 840px) {
 
-.comic img {
+.comic img,.content {
 width: 90% !important;
 }
 
@@ -211,7 +211,7 @@ width: 90% !important;
 
 @media all and (max-width: 340px) {
 
-.comic img {
+.comic img,.content {
 width: 85% !important;
 }
 
