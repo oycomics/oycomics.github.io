@@ -68,6 +68,7 @@ height: 55px;
 overflow: hidden;
 margin: 0 auto;
 clear: both;
+font-size: .9;
 text-align: center;
 z-index:102;
 }
