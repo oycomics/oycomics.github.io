@@ -12,7 +12,7 @@ body {
 background: transparent;
 color:#333;
 font-size: 16px;
-font-size: 1rem;
+font-size: .9rem;
 font-family:arial,sans-serif;
 z-index:1;
 }
@@ -56,7 +56,6 @@ z-index:9;
 .nwrap {
 display: block;
 width: 100%;
-
 background: #222;
 height: 50px;
 padding: 0 0 25px;
@@ -82,7 +81,6 @@ float: left;
 width: 20%;
 height: 50px;
 line-height: 50px;
-font-size: .9;
 color: #fff;
 text-align: center;
 z-index:6;
@@ -95,7 +93,6 @@ color: #ccff99;
 
 a.copyright_email {
 width:284px;
-font-size: 1.5em;
 }
 
 a.title_link { background: #fff;}
@@ -192,7 +189,9 @@ color: #222;
 background: #eee;
 }
 
-.socialwrap { height: 50px; line-height: 50px; padding: 25px 0 0; margin: -25px auto 0;  background: #222; z-index: 2; color: #fff; text-align: center;}
+.socialwrap { height: 50px; line-height: 50px; 
+padding: 25px 0 0; margin: -25px auto 0;
+background: #222; z-index: 2; color: #fff; text-align: center;}
 
 .socialwrap a { color: #fff;}
 
@@ -200,7 +199,8 @@ background: #eee;
 
 .s {}
 
-.footerwrap { height: 50px; line-height: 50px; z-index: 2; color: #fff; text-align: center;}
+.footerwrap { height: 50px; line-height: 50px; z-index: 2;
+color: #fff; text-align: center;}
 
 .footerwrap a { color: #333; }
 
