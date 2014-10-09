@@ -9,7 +9,7 @@ background: #f9f9f9;
 }
 
 body {
-background: transparent;
+background: #222;
 color:#333;
 font-size: 16px;
 font-size: 1rem;
@@ -47,19 +47,22 @@ z-index:3;
 
 .content {
 margin: 0 auto;
+background: #222;
 z-index:9;
 }
 
 .nwrap {
 display: block;
 width: 100%;
+background: #eeffbb;
 height: 55px;
-z-index: 1000;
+padding: 0 0 25px;
+margin: 0 auto -25px;
+z-index: 3;
 }
 
 .n {
 display: block;
-width: 284px;
 height: 55px;
 overflow: hidden;
 margin: 0 auto;
@@ -71,13 +74,13 @@ z-index:102;
 a.nitem {
 display: block;
 float: left;
-width: 70px;
+width: 20%;
 height: 55px;
 line-height: 50px;
-font-size: 1.8em;
 color: #333;
 text-align: center;
 z-index:6;
+background: #eeffbb;
 }
 
 a.nitem:hover {
@@ -89,11 +92,13 @@ width:284px;
 font-size: 1.5em;
 }
 
+a.about_link, a.patreon_link { background: #ccffbb;}
+
 .comic {
 text-align: center;
 margin: 0 auto;
 z-index:1001;
-background: #fff;
+
 }
 
 .comic img {
