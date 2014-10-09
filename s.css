@@ -68,7 +68,6 @@ height: 55px;
 overflow: hidden;
 margin: 0 auto;
 clear: both;
-font-size: .9;
 text-align: center;
 z-index:102;
 }
@@ -79,6 +78,7 @@ float: left;
 width: 20%;
 height: 55px;
 line-height: 50px;
+font-size: .9;
 color: #333;
 text-align: center;
 z-index:6;
