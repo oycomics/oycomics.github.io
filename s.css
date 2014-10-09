@@ -46,8 +46,10 @@ z-index:3;
 }
 
 .content {
+width: 90%;
 margin: 0 auto;
-background: #222;
+padding: 25px;
+background: #fff;
 z-index:9;
 }
 
