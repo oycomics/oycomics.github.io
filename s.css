@@ -5,11 +5,11 @@ position:relative;
 }
 
 html {
-background: #fff;
+background: #222;
 }
 
 body {
-background: transparent;
+background: #fff;
 color:#333;
 font-size: 16px;
 font-size: .9rem;
@@ -199,10 +199,10 @@ background: #222; z-index: 2; color: #fff; text-align: center;}
 
 .s {}
 
-.footerwrap { height: 50px; line-height: 50px; z-index: 2;
+.footerwrap { background: #222; height: 50px; line-height: 50px; z-index: 2;
 color: #fff; text-align: center;}
 
-.footerwrap a { color: #333; }
+.footerwrap a { color: #fff; }
 
 .f {}
 
