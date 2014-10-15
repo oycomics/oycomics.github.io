@@ -66,7 +66,7 @@ z-index:3;
 
 .content {
 width: 94%;
-max-width: 2048px;
+max-width: 700px;
 margin: 0 auto;
 padding: 25px 0;
 background: #fff;
@@ -85,7 +85,7 @@ z-index: 3;
 
 .n {
 width: 100%;
-max-width: 2048px;
+max-width: 700px;
 display: block;
 height: 50px;
 overflow: hidden;
