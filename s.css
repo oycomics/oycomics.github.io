@@ -47,6 +47,7 @@ z-index:3;
 
 .content {
 width: 94%;
+max-width: 1920px;
 margin: 0 auto;
 padding: 25px 0;
 background: #fff;
@@ -99,6 +100,7 @@ a.title_link { background: #fff;}
 
 .comic {
 width: 100%;
+max-width: 1920px;
 text-align: center;
 margin: 0 auto;
 z-index:1001;
