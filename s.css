@@ -111,10 +111,6 @@ a.nitem:hover {
 color: #ccff99;
 }
 
-a.copyright_email {
-width:284px;
-}
-
 .comic {
 width: 100%;
 text-align: center;
@@ -207,22 +203,47 @@ color: #222;
 background: #eee;
 }
 
-.socialwrap { height: 50px; line-height: 50px; 
-padding: 25px 0 0; margin: -25px auto 0;
-background: #222; z-index: 2; color: #fff; text-align: center;}
+.footerwrap {
+display: block;
+width: 100%;
+background: #222;
+height: 60px;
+padding: 25px 0 10px;
+margin: -25px auto 0;
+z-index: 2;
+}
 
-.socialwrap a { color: #fff;}
+.f {
+width: 100%;
+max-width: 700px;
+display: block;
+height: 50px;
+overflow: hidden;
+margin: 0 auto;
+clear: both;
+text-align: center;
+z-index:102;
+}
 
-.socialwrap a:hover { color: #ccff99;}
+.f a {
+display: block;
+float: left;
+width: 20%;
+height: 50px;
+line-height: 50px;
+color: #fff;
+text-align: center;
+z-index:6;
+background: #222;
+}
 
-.s {}
+.f a:hover {
+color: #ccff99;
+}
 
-.footerwrap { background: #222; height: 50px; line-height: 50px; z-index: 2;
-color: #fff; text-align: center;}
+a.copyright_email { line-height: 25px; }
 
-.footerwrap a { color: #fff; }
-
-.f {}
+a.copyright_email:hover { color: #fff;}
 
 /* Small screen */
 
