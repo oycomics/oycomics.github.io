@@ -1,6 +1,6 @@
 ---
 layout: daily
-title: "Daily Test Comic"
+title: "Test Video 209345"
 date: 2014-01-01 00:00:47
 image: "2014-05-09.png"
 ---
