@@ -5,7 +5,7 @@
 
 ##Content
 
-All comic images and related content &copy; 2001 - 2014 Danny Burleson.
+All comic images and related content &copy; 2001 - 2015 Danny Burleson.
 
 ##Code
 
@@ -35,7 +35,7 @@ To get started you will need:
 
 ###COMIC FORMAT EXAMPLES 
 
-####Comic Web Dimensions
+####Comic Web Dimensions  (dimensions are example only; based on maxed-out for "Retina" devices)
 
 #####Daily
 
