@@ -251,6 +251,8 @@ a.twitter:hover { color: #2AA9E0;}
 
 a.facebook:hover { color: #3B5998;}
 
+img.copyright_sig { margin: 0 0 -7px 5px;}
+
 .embed-container
 { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 94%; height: auto; margin: 0 auto; }
 
