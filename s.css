@@ -214,10 +214,9 @@ z-index: 2;
 }
 
 .f {
-width: 100%;
-max-width: 700px;
+width: 300px;
 display: block;
-height: 50px;
+height: 100px;
 overflow: hidden;
 margin: 0 auto;
 clear: both;
@@ -228,7 +227,8 @@ z-index:102;
 .f a {
 display: block;
 float: left;
-width: 20%;
+margin: 0;
+width: 100px;
 height: 50px;
 line-height: 50px;
 color: #fff;
@@ -241,7 +241,7 @@ background: #222;
 color: #ccff99;
 }
 
-a.copyright_email { line-height: 25px; }
+a.copyright_email { line-height: 50px; width: 300px;float: none; margin: 0 auto;}
 
 a.copyright_email:hover { color: #fff;}
 
