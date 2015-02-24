@@ -204,24 +204,17 @@ color: #222;
 background: #eee;
 }
 
-.footerwrap {
+.f {
 display: block;
 width: 100%;
 height: 90px;
 padding: 0;
 margin: 0 auto;
+text-align: center;
 z-index: 2;
 color: #fff;
-}
-
-.f {
-display: block;
-height: 90px;
 overflow: hidden;
-margin: 0 auto;
 clear: both;
-text-align: center;
-z-index:102;
 }
 
 .f a {
