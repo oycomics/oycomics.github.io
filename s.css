@@ -217,6 +217,12 @@ overflow: hidden;
 clear: both;
 }
 
+.f p {
+color: #fff;
+padding: 10px 0 0;
+line-height: 22px;
+}
+
 .f a {
 display: block;
 margin: 0 auto;
