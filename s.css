@@ -269,6 +269,8 @@ a.title_link img {
 width: 75px;
 }
 
-
+a.n_item {
+  font-size: 12px;
+  font-size: .8rem;}
 
 }
