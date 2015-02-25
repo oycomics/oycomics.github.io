@@ -77,16 +77,20 @@ padding: 5px 0 35px;
 clear: both;
 text-align: center;
 z-index:1002;
+color: #fff;
 background: #000 url(/assets/img/n_bg.png) repeat-x bottom center;
 background-size: 1024px;
 }
 
-a.nitem {
-display: block;
+.n_items {
 float: right;
+padding: 0 5px ;
+}
+
+a.n_item {
 height: 90px;
 line-height: 90px;
-padding: 0 10px;
+padding: 0;
 color: #fff;
 text-align: center;
 z-index:6;
@@ -101,11 +105,11 @@ a.title_link {
 float: left;
 height: 110px;
 line-height: 110px;
-width: 121px;
+width: 100px;
 }
 
 a.title_link img {
-width:120px;
+width:100px;
 }
 
 .comic {
