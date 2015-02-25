@@ -83,9 +83,9 @@ background: transparent url(/assets/img/n_bg.png) repeat-x bottom center;
 a.nitem {
 display: block;
 float: right;
-height: 50px;
-line-height: 50px;
-padding: 0 10px;
+height: 110px;
+line-height: 110px;
+padding: 0 20px;
 color: #fff;
 text-align: center;
 z-index:6;
