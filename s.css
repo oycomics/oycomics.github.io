@@ -69,9 +69,9 @@ z-index:9;
 }
 
 .n {
-width: 225px;
+width: 275px;
 display: block;
-height: 60px;
+height: 110px;
 overflow: hidden;
 margin: 0 auto;
 clear: both;
@@ -83,9 +83,9 @@ background: orange;
 a.nitem {
 display: block;
 float: left;
-width: 75px;
-height: 60px;
-line-height: 60px;
+width: 77px;
+height: 110px;
+line-height: 110px;
 color: #fff;
 text-align: center;
 z-index:6;
@@ -97,8 +97,12 @@ color: #ccff99;
 }
 
 
+a.title_link {
+width: 121px;
+}
+
 a.title_link img {
-margin: 5px auto 0;
+
 }
 
 .comic {
