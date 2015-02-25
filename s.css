@@ -211,7 +211,7 @@ line-height: 22px;
 
 }
 
-.f a {
+a.copyright_email {
 display: block;
 margin: 0 auto;
 width: 300px;
@@ -222,23 +222,17 @@ text-align: center;
 z-index:6;
 }
 
-
+a.flink:hover {color: #ccff99;}
+a.google_plus:hover { color: #DC4A38;}
+a.twitter:hover { color: #2AA9E0;}
+a.facebook:hover { color: #3B5998;}
 
 img.copyright_sig { margin: 0 0 -7px 5px;}
-
-.embed-container
-{ position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 94%; height: auto; margin: 0 auto; }
-
-.embed-container iframe, .embed-container object, .embed-container embed
-{ position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
-
 
 /* Small screen */
 
 @media all and (max-width: 640px) {
-
 .comic img {
 width: 90% !important;
 }
-
 }
