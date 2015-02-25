@@ -39,11 +39,11 @@ To get started you will need:
 
 #####Daily
 
-	2048x658
+	2048x{whatever}
 
 #####Sunday
 
-	2048x1536
+	2048x1536{whatever}
 
 ####FILENAME
 
