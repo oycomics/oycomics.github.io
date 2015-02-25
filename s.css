@@ -69,27 +69,25 @@ z-index:9;
 }
 
 .n {
-width: 275px;
 display: block;
 height: 110px;
 overflow: hidden;
 margin: 0 auto;
+padding: 5px 0;
 clear: both;
 text-align: center;
 z-index:3;
-background: orange;
 }
 
 a.nitem {
 display: block;
-float: left;
-width: 77px;
-height: 110px;
-line-height: 110px;
+float: right;
+height: 50px;
+line-height: 50px;
+padding: 0 10px;
 color: #fff;
 text-align: center;
 z-index:6;
-background: #111;
 }
 
 a.nitem:hover {
@@ -98,6 +96,9 @@ color: #ccff99;
 
 
 a.title_link {
+float: left;
+height: 110px;
+line-height: 110px;
 width: 121px;
 }
 
