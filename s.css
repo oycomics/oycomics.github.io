@@ -204,11 +204,15 @@ overflow: hidden;
 clear: both;
 }
 
+
+.f a {
+color: #fff;
+}
+
 .f p {
 color: #fff;
 padding: 5px 10px;
 line-height: 22px;
-
 }
 
 a.copyright_email {
