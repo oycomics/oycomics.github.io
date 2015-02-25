@@ -5,7 +5,7 @@ position:relative;
 }
 
 html {
-background: #111;
+background: #000;
 }
 
 body {
@@ -73,10 +73,11 @@ display: block;
 height: 110px;
 overflow: hidden;
 margin: 0 auto;
-padding: 5px 0;
+padding: 5px 0 35px;
 clear: both;
 text-align: center;
-z-index:3;
+z-index:1002;
+background: transparent url(/assets/img/n_bg.png) repeat-x bottom center;
 }
 
 a.nitem {
@@ -109,7 +110,8 @@ width:120px;
 .comic {
 width: 100%;
 text-align: center;
-margin: 0 auto;
+margin: -35px auto;
+padding: 35px 0;
 z-index:1001;
 background: #fff;
 }
@@ -201,13 +203,14 @@ background: #eee;
 .f {
 display: block;
 width: 100%;
-padding: 0;
 margin: 0 auto;
+padding: 35px 0 5px;
 text-align: center;
-z-index: 2;
+z-index: 1002;
 color: #fff;
 overflow: hidden;
 clear: both;
+background: transparent url(/assets/img/f_bg.png) repeat-x top center;
 }
 
 
