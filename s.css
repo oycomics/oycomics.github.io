@@ -119,13 +119,13 @@ a.ETC {  width: 42px; border-left: 1px solid #333;}
 
 
 
-a.patreon:hover { background: #E6461A;}
+a.patreon:hover { color: #E6461A;}
 
-a.archives:hover { background: #777; }
+a.archives:hover { color: #777; }
 
-a.email:hover { background: #D52925; }
+a.email:hover { color: #D52925; }
 
-a.ETC:hover { background: #05590C;}
+a.ETC:hover { color: #05590C;}
 
 
 
@@ -136,11 +136,11 @@ a.twitter { width: 75px; border-left: 1px solid #333; }
 a.facebook {width: 76px; border-left: 1px solid #333; }
 
 
-a.google_plus:hover { background: #DC4A38; color: #fff; }
+a.google_plus:hover { color: #DC4A38; }
 
-a.twitter:hover { background: #2AA9E0; color: #fff; }
+a.twitter:hover { color: #2AA9E0; }
 
-a.facebook:hover { background: #3B5998; color: #fff; }
+a.facebook:hover { color: #3B5998;}
 
 a.title_link {
 float: left;
