@@ -261,4 +261,14 @@ img.copyright_sig { margin: 0 0 -7px 5px;}
 width: 90% !important;
 }
 
+a.title_link {
+width: 75px;
+}
+
+a.title_link img {
+width: 75px;
+}
+
+
+
 }
