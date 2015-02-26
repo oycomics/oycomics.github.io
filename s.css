@@ -258,6 +258,11 @@ img.copyright_sig { margin: 0 0 -7px 5px;}
 
 @media all and (max-width: 640px) {
 
+body {
+font-size: 14px;
+font-size: .9rem;
+}
+
 .comic img {
 width: 90% !important;
 }
