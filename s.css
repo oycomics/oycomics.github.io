@@ -84,7 +84,7 @@ background-size: 1024px;
 }
 
 .n_items {
-width: 159px;
+width: 50%;
 height: 71px;
 margin: 0 15px 0 0;
 float: right;
@@ -93,26 +93,16 @@ border-width: 0 1px 1px;
 
 a.n_item {
 display: block;
-width: 50%;
+width: 24%;
+height: 35px; line-height: 35px; 
 float: left;
 padding: 0;
 color: #fff;
-text-align: center;
+text-align: right;
 z-index:6;
 }
 
 a.n_item:hover { color: #ccff99; }
-
-.n_items_top { width: 159px; height: 35px; line-height: 35px; }
-
-.n_items_top a.n_item { }
-
-.n_items_bottom { width: 159px; height: 35px; line-height: 35px; }
-
-.n_items_bottom a.n_item { float: left; }
-
-
-
 
 a.title_link {
 float: left;
@@ -270,6 +260,10 @@ img.copyright_sig { margin: 0 0 -7px 5px;}
 
 .comic img {
 width: 90% !important;
+}
+
+a.n_item {
+width: 49%;
 }
 
 }
