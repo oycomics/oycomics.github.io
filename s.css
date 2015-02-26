@@ -80,8 +80,7 @@ z-index:1002;
 color: #fff;
 background: #000 url(/assets/img/n_bg.png) repeat-x bottom center;
 background-size: 1024px;
-  font-size: 13px;
-  font-size: .7rem;
+
 }
 
 .n_items {
@@ -301,6 +300,8 @@ width: 90% !important;
 
 .n {
 height: 40px;
+  font-size: 13px;
+  font-size: .7rem;
 }
 
 a.title_link,a.title_link img {
