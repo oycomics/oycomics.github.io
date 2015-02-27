@@ -70,7 +70,7 @@ z-index:9;
 
 .n {
 display: block;
-height: 71px;
+height: 70px;
 overflow: hidden;
 margin: 0 auto;
 padding: 5px 0 35px;
@@ -85,7 +85,7 @@ background-size: 1024px;
 
 .n_items {
 width: 45%;
-height: 71px;
+height: 70px;
 margin: 0 15px 0 0;
 float: right;
 border-width: 0 1px 1px;
@@ -94,7 +94,7 @@ border-width: 0 1px 1px;
 a.n_item {
 display: block;
 width: 24%;
-height: 35px; line-height: 35px; 
+height: 70px; line-height: 70px; 
 float: left;
 padding: 0;
 color: #fff;
@@ -269,6 +269,8 @@ width: 90% !important;
 
 a.n_item {
 width: 49%;
+height: 35px;
+line-height: 35px;
 }
 
 }
