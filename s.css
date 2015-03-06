@@ -72,8 +72,6 @@ z-index:9;
 }
 
 .n {
-width: 100%;
-max-width: 320px;
 display: block;
 height: 30px;
 overflow: hidden;
@@ -85,6 +83,11 @@ z-index:1002;
 color: #fff;
 background: #000 url(/assets/img/n_bg.png) repeat-x bottom center;
 background-size: 1024px;
+}
+
+.n_items {
+width: 100%;
+max-width: 320px;
 }
 
 a.n_item {
