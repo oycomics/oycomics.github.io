@@ -12,14 +12,8 @@
 <div class="site home">
 <div class="homecomic">
 <div class="comic_date">
-{% assign d = page.date | date: "%-d" %} 
-{% assign m = page.date | date: "%B" %} 
-
-{% case m %}
-  {% when 'April' or 'May' or 'June' or 'July' %}{{ m }}
-  {% when 'September' %}Sept.
-  {% else %}{{ page.date | date: "%b" }}.
-  {% endcase %}
+{% assign d = page.date | date: "%-d"  %}
+{{ page.date | date: "%B" }} 
 {% case d %}
   {% when '1' or '21' or '31' %}{{ d }}st
   {% when '2' or '22' %}{{ d }}nd
