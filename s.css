@@ -124,10 +124,12 @@ display: block;
 text-transform: initial;
 height: 50px;
 line-height: 50px;
+float: left;
+margin: 0;
+padding: 0 0 0 15px;
 text-align: left;
 font-size: 24px;
 font-size: 1.5rem;
-width: 50%;
 background: tan;
 }
 
@@ -139,6 +141,9 @@ width: 75px !important;
 display: block;
 height: 50px;
 line-height: 50px;
+float: right;
+margin: 0;
+padding: 0 15px 0;
 text-transform: uppercase;
 font-size: 24px;
 font-size: 1.5rem;
@@ -287,6 +292,13 @@ img.copyright_sig { margin: 0 0 -7px 5px;}
 
 /* Small screen */
 
+@media all and (max-width: 768px) {
+
+h1.comic_title,.comic_date { float: none; text-align: center;}
+
+
+}
+
 @media all and (max-width: 480px) {
 
 body {
@@ -304,7 +316,7 @@ height: 35px;
 line-height: 35px;
 }
 
-.comic_date { text-align: center;}
+
 
 }
 
