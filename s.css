@@ -76,7 +76,7 @@ display: block;
 height: 30px;
 overflow: hidden;
 margin: 0 auto;
-padding: 5px 0 25px;
+padding: 5px 0 20px;
 clear: both;
 text-align: center;
 z-index:1002;
@@ -85,32 +85,19 @@ background: #000 url(/assets/img/n_bg.png) repeat-x bottom center;
 background-size: 1024px;
 }
 
-.n_items {
-
-margin: 0 ;
-}
-
-a.n_item {
-height: 30px; line-height: 35px; 
-padding: 0 5px;
+.n a {
 color: #fff;
-text-align: center;
-z-index:6;
 }
 
-a.n_item:hover { color: #ccff99; }
-
-a.title_link {
-float: left;
-padding: 0 5px;
-height: 70px;
-line-height: 70px;
-width: 100px;
+.n p {
+color: #fff;
+padding: 5px 10px;
+line-height: 22px;
 }
 
-a.title_link img {
-width:100px;
-}
+.n_block { padding: 5px 0; line-height: 20px; }
+
+.n_1 { width: 100%; clear: both;}
 
 h1.comic_title {
 display: block;
@@ -240,7 +227,7 @@ background: #eee;
 display: block;
 width: 100%;
 margin: 0 auto;
-padding: 35px 0 5px;
+padding: 20px 0 5px;
 text-align: center;
 z-index: 1002;
 color: #fff;
@@ -251,32 +238,22 @@ background-size: 1024px;
 }
 
 
-.f a {
-color: #fff;
+
+
+
+.f_items {
+margin: 0 ;
 }
 
-.f p {
-color: #fff;
-padding: 5px 10px;
-line-height: 22px;
-}
-
-.f_block { padding: 5px 0; line-height: 20px; }
-
-.f_1 { width: 100%; clear: both;}
-
-.f_2 { width: 100%; float: none; clear: both;}
-
-a.copyright_email {
-display: block;
-margin: 0 auto;
-height: 20px;
-line-height: 20px;
+a.f_item {
+height: 30px; line-height: 35px; 
+padding: 0 5px;
 color: #fff;
 text-align: center;
 z-index:6;
 }
 
+a.f_item:hover { color: #ccff99; }
 
 
 img.copyright_sig { margin: 0 0 -7px 5px;}
