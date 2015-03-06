@@ -294,7 +294,8 @@ img.copyright_sig { margin: 0 0 -7px 5px;}
 
 @media all and (max-width: 768px) {
 
-h1.comic_title,.comic_date { float: none; text-align: center;}
+h1.comic_title,.comic_date { float: none; text-align: center;
+}
 
 
 }
@@ -316,7 +317,12 @@ height: 35px;
 line-height: 35px;
 }
 
-
+h1.comic_title,.comic_date { 
+font-size: 14px;
+font-size: .9rem;
+height: 25px;
+line-height: 25px;
+}
 
 }
 
