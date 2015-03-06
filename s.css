@@ -310,3 +310,12 @@ line-height: 25px;
 
 }
 
+
+@media all and (max-width: 300px) {
+
+body,h1.comic_title,.comic_date {
+font-size: 10px;
+font-size: .7rem;
+}
+
+}
