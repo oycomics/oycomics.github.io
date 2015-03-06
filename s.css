@@ -86,16 +86,13 @@ background-size: 1024px;
 }
 
 .n_items {
-width: 100%;
-max-width: 320px;
+
+margin: 0 ;
 }
 
 a.n_item {
-display: block;
-width: 25%;
 height: 30px; line-height: 35px; 
-float: left;
-padding: 0;
+padding: 0 5px;
 color: #fff;
 text-align: center;
 z-index:6;
