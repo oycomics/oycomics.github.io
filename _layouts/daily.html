@@ -11,17 +11,6 @@
 {% include n.html %}
 <div class="site comic_daily">
 <div class="comic daily">
-<div class="comic_date">
-{% assign d = page.date | date: "%-d"  %}
-{{ page.date | date: "%B" }} 
-{% case d %}
-  {% when '1' or '21' or '31' %}{{ d }}st
-  {% when '2' or '22' %}{{ d }}nd
-  {% when '3' or '23' %}{{ d }}rd
-  {% else %}{{ d }}th
-  {% endcase %}&bull; 
-{{ page.date | date: "%Y" }}
-</div>
 {% include cn.html %}{{ content }}</div>
 </div>
 {% include f.html %}
