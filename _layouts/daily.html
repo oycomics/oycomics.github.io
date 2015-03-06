@@ -10,6 +10,7 @@
 <body>
 {% include n.html %}
 <div class="site comic_daily">
+{{ page.date | date: "%-d %B %Y" }}
 <div class="comic daily">{% include cn.html %}{{ content }}</div>
 </div>
 {% include f.html %}
