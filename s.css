@@ -76,26 +76,17 @@ display: block;
 height: 30px;
 overflow: hidden;
 margin: 0 auto;
-padding: 5px 0 20px;
+padding: 0 0 20px;
 clear: both;
 text-align: center;
 z-index:1002;
-color: #fff;
-background: #000 url(/assets/img/n_bg.png) repeat-x bottom center;
+color: #333;
+background: #fff url(/assets/img/n_bg.png) repeat-x top center;
 background-size: 1024px;
 }
 
-.n a {
-color: #fff;
-}
 
-.n p {
-color: #fff;
-padding: 5px 10px;
-line-height: 22px;
-}
-
-.n_block { padding: 5px 0; line-height: 20px; }
+.n_block { line-height: 80px; font-weight: 700;}
 
 .n_1 { width: 100%; clear: both;}
 
@@ -227,28 +218,27 @@ background: #eee;
 display: block;
 width: 100%;
 margin: 0 auto;
-padding: 20px 0 5px;
+padding: 0;
 text-align: center;
 z-index: 1002;
 color: #fff;
 overflow: hidden;
 clear: both;
-background: #000 url(/assets/img/f_bg.png) repeat-x top center;
+background: #fff url(/assets/img/f_bg.png) repeat-x bottom center;
 background-size: 1024px;
 }
 
 
-
-
-
 .f_items {
 margin: 0 ;
+
+padding: 0 0 20px ;
 }
 
 a.f_item {
 height: 30px; line-height: 35px; 
 padding: 0 5px;
-color: #fff;
+color: #333;
 text-align: center;
 z-index:6;
 }
