@@ -116,6 +116,8 @@ a.title_link img {
 width:100px;
 }
 
+.comic_date { height: 50px; line-height: 50px; font-size: 24px; font-size: 1.5rem; font-weight: 700; text-align: right; padding: 0 35px; }
+
 .comic {
 width: 100%;
 text-align: center;
@@ -272,6 +274,8 @@ width: 49%;
 height: 35px;
 line-height: 35px;
 }
+
+.comic_date { text-align: center;}
 
 }
 
