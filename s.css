@@ -296,15 +296,15 @@ line-height: 25px;
 .f_slogan {
 float: none;
 padding: 10px 0;
-height: 25px;
-line-height: 25px;
+height: 15px;
+line-height: 15px;
 }
 
 .f_items {
 float: none;
 padding: 0px 0 25px;
-height: 25px;
-line-height: 25px;
+height: 15px;
+line-height: 15px;
 }
 
 }
