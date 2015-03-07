@@ -265,7 +265,7 @@ img.copyright_sig { margin: 0 0 -7px 5px;}
 
 /* Small screen */
 
-@media all and (max-width: 560px) {
+@media all and (max-width: 570px) {
 
 body {
 font-size: 14px;
