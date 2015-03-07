@@ -200,7 +200,7 @@ margin: 0 auto;
 width: 240px;
 margin: 0 auto;
 display: block;
-color: #222;
+color: #333;
 padding: 5px 0;
 text-transform: lowercase;
 }
@@ -211,8 +211,7 @@ font-weight: 700;
 }
 
 .archive li a:hover{
-color: #222;
-background: #eee;
+color: #999;
 }
 
 .f {
@@ -238,6 +237,14 @@ float: right;
 margin: 0 ;
 padding: 0 10px 20px 0;
 }
+
+.f_items_archive { float: none;
+padding: 50px 0;
+color: #333;
+}
+
+.f_items_archive a{ color: #333; }
+.f_items_archive a:hover { color: #999; }
 
 a.f_item {
 height: 30px; 
