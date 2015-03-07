@@ -265,15 +265,6 @@ img.copyright_sig { margin: 0 0 -7px 5px;}
 
 /* Small screen */
 
-@media all and (max-width: 768px) {
-  
- h1.comic_title,.comic_date { 
-font-size: 16px;
-font-size: 1rem;
-}
-    
-}
-
 @media all and (max-width: 540px) {
 
 body {
@@ -305,16 +296,6 @@ float: none;
 padding: 0px 0 25px;
 height: 15px;
 line-height: 15px;
-}
-
-}
-
-
-@media all and (max-width: 280px) {
-
-body,h1.comic_title,.comic_date {
-font-size: 10px;
-font-size: .7rem;
 }
 
 }
