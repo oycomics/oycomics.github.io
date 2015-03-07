@@ -267,9 +267,9 @@ img.copyright_sig { margin: 0 0 -7px 5px;}
 
 @media all and (max-width: 768px) {
   
-  h1.comic_title,.comic_date { float: none; text-align: center;
-font-size: 14px;
-font-size: .9rem;
+ h1.comic_title,.comic_date { 
+font-size: 16px;
+font-size: 1rem;
 }
     
 }
