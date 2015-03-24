@@ -102,6 +102,7 @@ padding: 0 0 0 15px;
 text-align: left;
 font-size: 18px;
 font-size: 1.1rem;
+z-index: 1000;
 }
 
 h1.comic_title img {
@@ -263,7 +264,10 @@ font-size: 14px;
 font-size: .9rem;
 }
 
-a.f_item:hover { color: #999; }
+h1.comic_title a { color: #333;}
+
+a.f_item:hover,
+h1.comic_title a:hover { color: #999; }
 
 img.copyright_sig { margin: 0 0 -7px 5px;}
 
