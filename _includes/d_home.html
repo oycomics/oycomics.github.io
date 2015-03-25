@@ -1,3 +1,4 @@
+<div class="comic_title_date_wrap">
 <h1 class="comic_title"><a href="/">Oy</a> | <a href="mailto:danny@oycomics.com">by Danny Burleson</a></h1>
 <div class="comic_date">
 {% assign d = page.date | date: "%-d"  %}
@@ -9,4 +10,5 @@
   {% else %}{{ d }}th
   {% endcase %}&bull; 
 {{ page.date | date: "%Y" }}
+</div>
 </div>
