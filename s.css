@@ -73,19 +73,19 @@ z-index:9;
 
 .n {
 display: block;
-height: 30px;
+height: 50px;
 overflow: hidden;
 margin: 0 auto;
-padding: 0 0 20px;
+padding: 0;
 clear: both;
 text-align: center;
 z-index:1002;
 color: #333;
-
+background: #222;
 }
 
 
-.n_block { line-height: 80px; font-weight: 700;}
+.n_block { line-height: 50px; font-weight: 700;}
 
 .n_1 { width: 100%; clear: both;}
 
@@ -221,12 +221,13 @@ margin: 0 auto;
 }
 
 .f_items_archive { float: none;
-padding: 50px 0;
-color: #333;
+background: #222;
+padding: 10px 0;
+color: #fff;
 }
 
-.f_items_archive a{ color: #333; }
-.f_items_archive a:hover { color: #999; }
+.f_items_archive a{ color: #fff; }
+.f_items_archive a:hover { background: #000;}
 
 a.f_item {
 height: 40px;
