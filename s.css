@@ -232,9 +232,10 @@ background-size: 1024px;
 font-weight: 700;
 }
 
-.f_items { float: right;
-height: 50px;
-line-height: 50px;
+.f_items { 
+width: 275px;
+text-align: center;
+margin: 0 auto;
 }
 
 .f_slogan { float: left; padding: 0 0 20px 10px;
@@ -253,20 +254,16 @@ color: #333;
 .f_items_archive a:hover { color: #999; }
 
 a.f_item {
-float: left;
-display: block;
-width: 75px;
 height: 40px;
-line-height: 40px; 
-
+line-height: 50px; 
 padding: 0 5px;
-margin: 0 2px;
-color: #000;
+color: #222;
 text-align: center;
 z-index:6;
-font-size: 14px;
-font-size: .9rem;
-border: 1px solid #000;
+font-size: 18px;
+font-size: 1.1rem;
+font-weight: 700;
+
 }
 
 h1.comic_title a { color: #333;}
@@ -274,11 +271,9 @@ h1.comic_title a { color: #333;}
 a.f_item:hover { color: #fff; background: #000;}
 h1.comic_title a:hover { color: #999; }
 
-img.copyright_sig { margin: 0 0 -7px 5px;}
-
 /* Small screen */
 
-@media all and (max-width: 540px) {
+@media all and (max-width: 780px) {
 
 body {
 font-size: 14px;
@@ -289,7 +284,7 @@ font-size: .9rem;
 width: 90% !important;
 }
 
-h1.comic_title,.comic_date { float: none; text-align: center;
+h1.comic_title,.comic_date,a.f_item { float: none; text-align: center;
 font-size: 14px;
 font-size: .9rem;
 height: 25px;
@@ -300,13 +295,6 @@ line-height: 25px;
 .f_slogan {
 float: none;
 padding: 10px 0;
-height: 15px;
-line-height: 15px;
-}
-
-.f_items {
-float: none;
-padding: 0px 0 25px;
 height: 15px;
 line-height: 15px;
 }
