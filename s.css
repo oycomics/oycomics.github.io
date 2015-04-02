@@ -220,7 +220,7 @@ color: #999;
 display: block;
 width: 100%;
 margin: 0 auto;
-padding: 0;
+padding: 0 0 15px;
 text-align: center;
 z-index: 1002;
 color: #333;
@@ -231,17 +231,9 @@ background-size: 1024px;
 font-weight: 700;
 }
 
-.f_items { 
-width: 275px;
+.f_items {
 text-align: center;
 margin: 0 auto;
-}
-
-.f_slogan { float: left; padding: 0 0 20px 10px;
-height: 40px;
-line-height: 40px;
-font-size: 14px;
-font-size: .9rem;
 }
 
 .f_items_archive { float: none;
@@ -288,14 +280,6 @@ font-size: 14px;
 font-size: .9rem;
 height: 25px;
 line-height: 25px;
-}
-
-
-.f_slogan {
-float: none;
-padding: 10px 0;
-height: 15px;
-line-height: 15px;
 }
 
 }
