@@ -1,10 +1,5 @@
 <div class="comic_title_date_wrap">
 <h1 class="comic_title"><a href="/">Oy&trade;</a> | <a href="mailto:danny@oycomics.com">by Danny Burleson</a></h1>
-<div class="f_items">
-<a class="f_item patreon" href="http://www.patreon.com/oycomics" target="_blank">Patreon</a>
-<a class="f_item archives" href="/archive">Archive</a>
-<a class="f_item ETC" href="http://oycomicsetc.com" target="_blank">Etc.</a>
-</div>
 <div class="comic_date">
 {% assign d = site.time | date: "%-d"  %}
 {{ site.time | date: "%B" }} 
@@ -15,5 +10,10 @@
   {% else %}{{ d }}th
   {% endcase %}&bull; 
 {{ site.time | date: "%Y" }}
+</div>
+<div class="f_items">
+<a class="f_item patreon" href="http://www.patreon.com/oycomics" target="_blank">Patreon</a>
+<a class="f_item archives" href="/archive">Archive</a>
+<a class="f_item ETC" href="http://oycomicsetc.com" target="_blank">Etc.</a>
 </div>
 </div>
