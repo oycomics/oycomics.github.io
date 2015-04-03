@@ -5,7 +5,7 @@ position:relative;
 }
 
 html {
-background: #000;
+background: #222;
 }
 
 body {
@@ -14,7 +14,7 @@ font-size: 16px;
 font-size: 1rem;
 font-family:arial,sans-serif;
 z-index:1;
-background: #fff;
+
 background-size: 1024px;
 }
 
@@ -128,7 +128,7 @@ text-transform: uppercase;
 width: 100%;
 text-align: center;
 margin: 0 auto;
-padding: 10px 0 0;
+
 z-index:1001;
 background: ;
 }
