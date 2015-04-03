@@ -230,7 +230,7 @@ color: #fff;
 .f_items_archive a{ color: #fff; }
 .f_items_archive a:hover { background: #000;}
 
-a.f_item {
+a.d_item {
 height: 40px;
 line-height: 50px; 
 padding: 0 5px;
@@ -240,12 +240,13 @@ z-index:6;
 font-size: 18px;
 font-size: 1.1rem;
 font-weight: 400;
+text-decoration: none;
 }
 
 h1.comic_title a { color: #fff;}
 
 h1.comic_title a:hover,
-a.f_item:hover { color: #fff; background: #000;}
+a.d_item:hover { text-decoration: underline;}
 
 /* Small screen */
 
