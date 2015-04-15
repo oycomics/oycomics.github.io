@@ -4,16 +4,24 @@
     {% include bootstrap_head.html %}
   </head>
   <body>
+
 {% include bootstrap_nav.html %}
 
 <div class="container-fluid content">
   
-  <div class="site comic_bootstrap">
-{% include d.html %}
+<div class="site comic_bootstrap">
 <div class="comic boostrap">
-{% include cn.html %}{{ content }}</div>
+
+<div class="row">
+  <div class="col-md-4">PREV</div>
+  <div class="col-md-4">{{ content }}</div>
+  <div class="col-md-4">NEXT</div>
 </div>
-  </div>
+
+</div>
+</div>
+
+</div>
   
 <div class="container-fluid footer">{% include bootstrap_footer.html %}</div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
