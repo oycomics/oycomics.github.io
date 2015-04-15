@@ -4,9 +4,9 @@
     {% include bootstrap_head.html %}
   </head>
   <body>
-{% include bootstrap_nav.html %}
-<div class="container-fluid">{{ content }}</div>
-{% include bootstrap_footer.html %}
+<div class="container-fluid nav">{% include bootstrap_nav.html %}</div>
+<div class="container-fluid content">{{ content }}</div>
+<div class="container-fluid footer">{% include bootstrap_footer.html %}</div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
   </body>
