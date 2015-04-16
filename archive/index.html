@@ -20,14 +20,15 @@ re-running daily (till they're all up)</p>
 <a href="#" class="btn btn-default btn-lg" role="button">Start From The Beginning</a>
 
 <h2>{{ site.time | date: "%Y" }}</h2>
+<p class="posts_list current">
   {%for post in site.posts reversed%}
     {% unless post.next %}
-      <p class="posts_list current">
     {% else %}
       {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
       {% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
       {% if year != nyear %}
         </p>
+        
 <h2>{{ post.date | date: '%Y' }}</h2>
         <p class="posts_list p past">
       {% endif %}
