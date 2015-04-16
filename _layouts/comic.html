@@ -6,10 +6,15 @@
 <meta property="og:url" content="{{ site.url }}{{ page.url }}/">
 </head>
 <body>
+  
+{% include bootstrap_nav.html %}
+  
 <div class="site comic_daily">
 {% include d.html %}
 <div class="comic daily">
 {% include cn.html %}{{ content }}</div>
 </div>
+
+<div class="container-fluid footer">{% include footer.html %}</div>
 </body>
 </html>
