@@ -6,11 +6,15 @@
 <meta property="og:url" content="{{ site.url }}/archive/">
 </head>
 <body>
+{% include bootstrap_nav.html %}
+
 <a name="THETOP"></a> 
-{% include n_archive.html %}
-<div class="site archive">
+
+<div class="container-fluid content archive">
 <div class="content">{{ content }}</div>
 </div>
-{% include f_archive.html %}
+
+<div class="container-fluid footer">{% include footer.html %}</div>
+
 </body>
 </html>
