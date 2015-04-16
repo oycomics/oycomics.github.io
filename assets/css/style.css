@@ -21,13 +21,22 @@ position: relative;
 overflow: hidden;
 }
 
+/* HOME */
+
 .home {
 }
+
+/* ARCHIVE */
+
+.archive {
+}
+
+/* COMIC */
 
 .comic {
 }
 
-.archive {
+.comic img {
 }
 
 /* COMIC NAV */
