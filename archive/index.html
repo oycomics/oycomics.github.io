@@ -33,7 +33,7 @@ re-running daily (till they're all up)</p>
         <p class="posts_list p past">
       {% endif %}
     {% endunless %}
-      <a href="{{ post.url }}" class="btn btn-default btn-lg">{{ post.date | date:"%a | %b %-d" }}</a>
+      <a href="{{ post.url }}" class="btn btn-default">{{ post.date | date:"%a | %b %-d" }}</a>
   {% endfor %}
   </p>
 </div>
