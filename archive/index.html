@@ -16,12 +16,11 @@ re-running daily (till they're all up)</p>
 <ul class="list-group current">
 
     {% else %}
-<li class="list-group-item">
+
       {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
       {% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
-</li>
       {% if year != nyear %}
-
+<li class="list-group-item"></li>
 
 </ul>
 
@@ -30,6 +29,7 @@ re-running daily (till they're all up)</p>
 <ul class="list-group past">
 {% endif %}
     {% endunless %}
-      <li class="list-group-item"><a href="{{ post.url }}">{{ post.date | date:"%a | %b %-d" }}</a></li>
+<a href="{{ post.url }}">{{ post.date | date:"%a | %b %-d" }}</a>
 {% endfor %}
+<li class="list-group-item"></li>
 </ul>
