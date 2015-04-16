@@ -1,8 +1,18 @@
----
-layout: 404
-title: 404 Error
----
+<!DOCTYPE html>
+<html itemscope itemtype="http://schema.org/Article">
+<head>
+{% include head.html %}
+<meta name="twitter:url" content="{{ site.url }}/">
+<meta property="og:url" content="{{ site.url }}/">
+</head>
+<body>
+{% include navigation.html %}
+<div class="container-fluid content site 404">
 <div class="row">
   <div class="col-md-6">WHOA THERE! You look lost!</div>
   <div class="col-md-6"> <a href="/">Get back home . . .</a></div>
 </div>
+</div>
+<div class="container-fluid footer">{% include footer.html %}</div>
+</body>
+</html>
