@@ -38,7 +38,7 @@ text-align: center;
 }
 
 .comic img {
-  width: 92% !important;
+  width: 90% !important;
   max-width: 2048px;
 }
 
@@ -114,7 +114,7 @@ padding-top: 20px;}
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
 .comic img {
-  width: 97% !important;
+  width: 95% !important;
 }
 }
 
