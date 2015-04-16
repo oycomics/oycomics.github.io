@@ -1,7 +1,7 @@
 ---
 layout: bootstrap_comic
 title: "bootstrap comic test"
-date: 2012-09-30 7:00:47
+date: 2015-01-05 7:00:47
 image: "http://i.imgur.com/XEPXwgS.png"
 ---
 <picture>
