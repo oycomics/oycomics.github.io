@@ -91,7 +91,6 @@ a.comic_nav.comic_nav_prev span.glyphicon.glyphicon-chevron-left {
     height: 50px;
     margin: auto;
 font-size: 50px;
-background: pink;
 }
 
 a.comic_nav.comic_nav_next span.glyphicon.glyphicon-chevron-right {
@@ -104,7 +103,6 @@ a.comic_nav.comic_nav_next span.glyphicon.glyphicon-chevron-right {
     height: 50px;
     margin: auto;
 font-size: 50px;
-background: navy;
 }
 
 /* FOOTER */
