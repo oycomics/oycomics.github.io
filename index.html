@@ -2,8 +2,3 @@
 layout: home
 title: Home
 ---
-{% assign post = site.posts.first %}
-{% assign content = post.content %}
-{% for post in site.posts limit: 2 %}
-<a class="comic_nav comic_nav_prev" href="{{ post.url }}" title="Previous Comic: {{post.title}}"></a>
-{% endfor %}
