@@ -7,12 +7,7 @@
 </head>
 <body>
 {% include navigation.html %}
-<div class="container-fluid content site home comic">
-{% for post in site.posts limit: 2 %}
-<a class="comic_nav comic_nav_prev" href="{{ post.url }}" title="Previous Comic: {{post.title}}"></a>
-{% endfor %}
-{{ content }}
-</div>
+<div class="container-fluid content site home comic">{{ content }}</div>
 <div class="container-fluid footer">{% include footer.html %}</div>
 </body>
 </html>
