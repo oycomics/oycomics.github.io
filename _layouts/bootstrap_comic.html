@@ -13,13 +13,16 @@
 <div class="comic boostrap">
 
 <div class="row">
-  <div class="col-md-1">{% if page.previous.url %}
-<a class="comic_nav comic_nav_prev wobble-horizontal" href="{{page.previous.url}}" title="Previous Comic: {{page.previous.title}}">PREV COMIC</a>
-{% endif %}</div>
-  <div class="col-md-10">{{ content }}</div>
-  <div class="col-md-1">{% if page.next.url %} 
+
+  <div class="col-md-1  col-md-push-1">{% if page.next.url %} 
 <a class="comic_nav comic_nav_next wobble-horizontal" href="{{page.next.url}}" title="Next Comic: {{page.next.title}}">NEXT COMIC</a>
 {% endif %}</div>
+  <div class="col-md-10">{{ content }}</div>
+    <div class="col-md-1"  col-md-pull-1>{% if page.previous.url %}
+<a class="comic_nav comic_nav_prev wobble-horizontal" href="{{page.previous.url}}" title="Previous Comic: {{page.previous.title}}">PREV COMIC</a>
+{% endif %}</div>
+  
+
 </div>
 
 </div>
