@@ -9,7 +9,19 @@
   
 {% include navigation.html %}
   
-<div class="container-fluid content comic">{% include cn.html %}{{ content }}</div>
+<div class="container-fluid content comic">
+
+{% if page.previous.url %}
+<a class="comic_nav comic_nav_prev wobble-horizontal" href="{{page.previous.url}}" title="Previous Comic: {{page.previous.title}}"></a>
+{% endif %}
+
+{% if page.next.url %} 
+<a class="comic_nav comic_nav_next wobble-horizontal" href="{{page.next.url}}" title="Next Comic: {{page.next.title}}"></a>
+{% endif %}
+
+{{ content }}
+
+</div>
 
 <div class="container-fluid footer">{% include footer.html %}</div>
 
