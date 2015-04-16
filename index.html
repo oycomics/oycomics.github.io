@@ -5,6 +5,8 @@ title: Home
 {% assign post = site.posts.first %}
 {% assign content = post.content %}
 {% for post in site.posts limit: 2 %}
-<a class="comic_nav comic_nav_prev" href="{{ post.url }}" title="Previous Comic: {{post.title}}">PREV</a>
+<a class="comic_nav comic_nav_prev" href="{{ post.url }}" title="Previous Comic: {{post.title}}">
+  <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+</a>
 {% endfor %}
 {{ content }}
