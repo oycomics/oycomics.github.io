@@ -5,13 +5,17 @@ title: Bootstrap
 {% assign post = site.posts.first %}
 {% assign content = post.content %}
 
-<div class="row comic">
+<!---<div class="row comic">
   <div class="col-md-1">{% for post in site.posts limit: 2 %}
 <a class="comic_nav comic_nav_prev" href="{{ post.url }}" title="Previous Comic: {{post.title}}">PREVIOUS COMIC</a>
 {% endfor %}</div>
   <div class="col-md-10">{{ content }}</div>
   <div class="col-md-1"></div>
+</div>--->
+
+<div class="container-fluid content">
+<div class="bootstrap_comic">
+{% include bootstrap_comicnav.html %}{{ content }}
 </div>
-
-
+</div>
 
