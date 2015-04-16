@@ -9,3 +9,10 @@ body {
 .home a.comic_nav_prev:first-child {
   display:none;
 } /* Hides extra home PREV */
+
+
+
+
+
+
+.footer { background: #222; }
