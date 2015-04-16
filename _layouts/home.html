@@ -8,11 +8,6 @@
 <body>
 {% include navigation.html %}
 <div class="container-fluid content site home comic">
-  {% assign post = site.posts.first %}
-{% assign content = post.content %}
-{% for post in site.posts limit: 2 %}
-<a class="comic_nav comic_nav_prev" href="{{ post.url }}" title="Previous Comic: {{post.title}}">PREV</a>
-{% endfor %}
   {{ content }}
 </div>
 <div class="container-fluid footer">{% include footer.html %}</div>
