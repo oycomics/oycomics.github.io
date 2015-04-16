@@ -17,18 +17,16 @@ background: transparent url(/assets/img/t_000.png);
 .navbar-default .navbar-brand {
     color: #fff;
 }
-.navbar-default .navbar-brand:hover,
-.navbar-default .navbar-brand:focus {
-    color: #fff;
-background: #353535;
-}
+
 .navbar-default .navbar-nav > li > a {
     color: #ccc;
 }
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus,
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
     color: #fff;
-background: #353535;
+background: transparent url(/assets/img/t_000.png);
 }
 
 /* CONTENT */
