@@ -1,5 +1,5 @@
 ---
-layout: bootstrap_comic
+layout: comic
 title: "bootstrap comic test"
 date: 2015-01-05 7:00:47
 image: "http://i.imgur.com/XEPXwgS.png"
