@@ -19,6 +19,7 @@ background: transparent url(/assets/img/t_000.png);
 .content {
 position: relative;
 overflow: hidden;
+text-align: center;
 }
 
 /* HOME */
