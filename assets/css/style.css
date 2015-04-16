@@ -1,18 +1,58 @@
+/* FOUNDATION */
+
 html {
   background: #222;
 }
 
 body {
-  padding-top: 70px;
+  padding-top: 50px;
 }
+
+/* NAVIGATION */
+
+/* CONTENT */
+
+.content {
+position: relative;
+overflow: hidden;
+}
+
+.home {
+}
+
+.comic {
+}
+
+.archive {
+}
+
+/* COMIC NAV */
 
 .home a.comic_nav_prev:first-child {
   display:none;
 } /* Hides extra home PREV */
 
+a.comic_nav { display: block;
+position: absolute;
+top: 0;
+height: 100%;
+line-height: 100%;
+width: 35%;
+}
 
+a.comic_nav.comic_nav_prev {
+left: 0;
+text-align: left;
+background: pink;
+}
 
+a.comic_nav.comic_nav_next {
+right: 0;
+text-align: right;
+background: navy;
+}
 
+/* FOOTER */
 
-
-.footer { background: #222; }
+.footer { background: #222; 
+padding-top: 20px;}
