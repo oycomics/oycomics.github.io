@@ -20,7 +20,7 @@ re-running daily (till they're all up)</p>
       {% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
       {% if year != nyear %}
         </ul>
-        <h2> - {{ post.date | date: '%Y' }} - </h2>
+<h2>{{ post.date | date: '%Y' }}</h2>
         <ul class="list-group past">
       {% endif %}
     {% endunless %}
