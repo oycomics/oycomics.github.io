@@ -38,18 +38,17 @@ top: 0;
 height: 100%;
 line-height: 100%;
 width: 35%;
+color: #222;
 }
 
 a.comic_nav.comic_nav_prev {
 left: 0;
 text-align: left;
-background: pink;
 }
 
 a.comic_nav.comic_nav_next {
 right: 0;
 text-align: right;
-background: navy;
 }
 
 
@@ -61,6 +60,7 @@ a.comic_nav.comic_nav_prev span.glyphicon.glyphicon-chevron-left {
     width: 50px;
     margin: -10% -25% 0 0;
 font-size: 50px;
+background: pink;
 }
 
 a.comic_nav.comic_nav_next span.glyphicon.glyphicon-chevron-right {
@@ -71,6 +71,7 @@ a.comic_nav.comic_nav_next span.glyphicon.glyphicon-chevron-right {
     width: 50px;
     margin: -10% 0 0 -25%;
 font-size: 50px;
+background: navy;
 }
 
 /* FOOTER */
