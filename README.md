@@ -1,7 +1,7 @@
 #"WholeBuffalo" - an Oy Comics&trade; UI
 ###
 
-> A minimal GitHub Pages layout for publishing comics.
+> A Jekyll / Bootstrap theme for publishing comics on GitHub Pages.
 
 ##Content
 
@@ -30,20 +30,10 @@ To get started you will need:
 
 * a GitHub Pages repository ( http://pages.github.com ). If you're reading this, I'll assume you're already familiar with GitHub.
 * Jeykll ( http://jekyllrb.com ). You'll want to familiarize yourself with their documentation ( http://jekyllrb.com/docs ). A lot of the magic that happens is thanks to this really simple-to-use "file-based CMS".
-* Knowledge of writing CSS, HTML, and Markdown.
+* Knowledge of writing CSS, HTML, Markdown, and the Bootstrap framework.
 * Optional: CloudFlare ( https://www.cloudflare.com ). I use this for page/image caching, DDOS protection, and other services. Your mileage may vary.
 
 ###COMIC FORMAT EXAMPLES 
-
-####Comic Web Dimensions  (dimensions are example only; based on maxed-out for "Retina" devices)
-
-#####Daily
-
-	2048x{whatever}
-
-#####Sunday
-
-	2048x1536{whatever}
 
 ####FILENAME
 
@@ -52,18 +42,9 @@ or
 
 	YYYY-MM-DD-TITLE.markdown
 
-####SUNDAY MARKDOWN
+####COMIC MARKDOWN
 	---
-	layout: sunday
-	title: "TITLE"
-	date: YYYY-MM-DD 00:00:47
-	image: "IMAGE_NAME.png"
-	---
-	![ALT TEXT]({{ site.url }}/comics/IMAGE_NAME.png)
-
-####DAILY MARKDOWN
-	---
-	layout: daily
+	layout: comic
 	title: "TITLE"
 	date: YYYY-MM-DD 00:00:47
 	image: "IMAGE_NAME.png"
