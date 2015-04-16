@@ -19,8 +19,9 @@ re-running daily (till they're all up)</p>
 <li class="list-group-item">
       {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
       {% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
-      {% if year != nyear %}
 </li>
+      {% if year != nyear %}
+
 
 </ul>
 
