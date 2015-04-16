@@ -1,7 +1,11 @@
 html {
-background: #222;
+  background: #222;
 }
 
 body {
-padding-bottom: 70px;
+  padding-bottom: 70px;
 }
+
+.home a.comic_nav_prev:first-child {
+  display:none;
+} /* Hides extra home PREV */
