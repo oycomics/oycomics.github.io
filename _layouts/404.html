@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html itemscope itemtype="http://schema.org/Article">
+<head>
+{% include head.html %}
+<meta name="twitter:url" content="{{ site.url }}/">
+<meta property="og:url" content="{{ site.url }}/">
+</head>
+<body>
+{% include navigation.html %}
+<div class="container-fluid content site 404">{{ content }}</div>
+<div class="container-fluid footer">{% include footer.html %}</div>
+</body>
+</html>
