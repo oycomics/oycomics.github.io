@@ -105,6 +105,10 @@ a.comic_nav.comic_nav_next span.glyphicon.glyphicon-chevron-right {
 font-size: 50px;
 }
 
+.glyphicon{
+    text-shadow: 0 0 5px #222;
+}
+
 /* FOOTER */
 
 .footer { background: #222; 
