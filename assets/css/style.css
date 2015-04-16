@@ -37,6 +37,8 @@ overflow: hidden;
 }
 
 .comic img {
+  width: 95%;
+  max-width: 2048px;
 }
 
 /* COMIC NAV */
