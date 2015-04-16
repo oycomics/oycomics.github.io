@@ -8,7 +8,9 @@
 {% include bootstrap_nav.html %}
 
 <div class="container-fluid content">
-{% include bootstrap_bootstrap_comicnav.html.html %}
+<div class="bootstrap_comic">
+{% include bootstrap_comicnav.html %}{{ content }}
+</div>
 </div>
   
 <div class="container-fluid footer">{% include bootstrap_footer.html %}</div>
