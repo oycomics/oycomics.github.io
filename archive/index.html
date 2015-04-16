@@ -22,3 +22,11 @@ re-running daily (till they're all up)</p>
       </li>
         </ul>
 
+
+<h2> - {{ post.date | date: '%Y' }} - </h2>
+<ul class="list-group past">
+{% endif %}
+    {% endunless %}
+      <li class="list-group-item"><a href="{{ post.url }}">{{ post.date | date:"%a | %b %-d" }}</a></li>
+{% endfor %}
+</ul>
