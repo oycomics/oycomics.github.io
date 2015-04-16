@@ -9,12 +9,9 @@
   
 {% include bootstrap_nav.html %}
   
-<div class="site comic_daily">
-{% include d.html %}
-<div class="comic daily">
-{% include cn.html %}{{ content }}</div>
-</div>
+<div class="container-fluid content comic">{% include cn.html %}{{ content }}</div>
 
 <div class="container-fluid footer">{% include footer.html %}</div>
+
 </body>
 </html>
