@@ -52,6 +52,27 @@ text-align: right;
 background: navy;
 }
 
+
+a.comic_nav.comic_nav_prev span.glyphicon.glyphicon-chevron-left {
+   position: absolute;
+    top: 50%;
+    left: 0;
+    height: 50px;
+    width: 50px;
+    margin: -10% -25% 0 0;
+font-size: 50px;
+}
+
+a.comic_nav.comic_nav_next span.glyphicon.glyphicon-chevron-right {
+   position: absolute;
+    top: 50%;
+    right: 0;
+    height: 50px;
+    width: 50px;
+    margin: -10% 0 0 -25%;
+font-size: 50px;
+}
+
 /* FOOTER */
 
 .footer { background: #222; 
