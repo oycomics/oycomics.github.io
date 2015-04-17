@@ -8,6 +8,8 @@ body {
 background: transparent;
 }
 
+
+
 /* NAVIGATION */
 
 .navbar {
@@ -37,6 +39,8 @@ border-top: 60px solid transparent;
 position: relative;
 overflow: hidden;
 }
+
+.row.onepagestrip { padding: 10px 0;}
 
 /* HOME */
 
@@ -125,13 +129,11 @@ font-size: 50px;
 /* ABOUT */
 
 .row.about {
-padding: 0 0 20px;
 color: #fff;
 background: #347549; 
 }
 
 .row.characters {
-padding: 0 0 20px;
 color: #333;
 background: #f7f1cf;
 }
@@ -145,7 +147,6 @@ background: #e1e9ea;
 /* COPYRIGHT*/
 
 .row.copyright {
-padding: 10px 0 0;
 color: #fff;
 }
 
