@@ -12,8 +12,11 @@ position: relative;
 padding-top: 60px;
 }
 
-.container-fluid
-{ min-height: 100%; height: auto;}
+.container-fluid { 
+min-height: 100%;
+height: auto;
+    
+}
 
 /* NAVIGATION */
 
@@ -45,7 +48,8 @@ position: relative;
 }
 
 .row.onepagestrip {
-height: 100%;
+min-height: 100%;
+height: auto;
 padding: 60px 0;
 }
 
@@ -59,6 +63,7 @@ height: auto;
 
 .comic {
 background: #fff;
+min-height: auto;
 height: auto;
 }
 
