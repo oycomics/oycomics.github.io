@@ -1,6 +1,6 @@
 $( document ).ready(function() {
 
-$('.footer').scrollspy({ target: '#navbar' })
+//$('.footer').scrollspy({ target: '#navbar' })
 
 
 });
