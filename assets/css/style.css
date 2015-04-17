@@ -40,7 +40,7 @@ position: relative;
 overflow: hidden;
 }
 
-.row.onepagestrip { padding: 10px 0;}
+.row.onepagestrip { padding: 0 0 20px;}
 
 /* HOME */
 
@@ -147,6 +147,7 @@ background: #e1e9ea;
 /* COPYRIGHT*/
 
 .row.copyright {
+padding: 20px 0;
 color: #fff;
 }
 
