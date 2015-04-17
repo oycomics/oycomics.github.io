@@ -5,9 +5,9 @@
 <meta name="twitter:url" content="{{ site.url }}/">
 <meta property="og:url" content="{{ site.url }}/">
 </head>
-<body data-spy="scroll" data-target="#navbar">
+<body>
 {% include navigation.html %}
 <div class="container-fluid content site lost text-center">{{ content }}</div>
-<div class="container-fluid footer">{% include footer.html %}</div>
+<div class="container-fluid footer" data-spy="scroll" data-target="#navbar">{% include footer.html %}</div>
 </body>
 </html>
