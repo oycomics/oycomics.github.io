@@ -130,6 +130,13 @@ font-size: 50px;
 .footer {
 }
 
+/* FEATURED */
+
+.row.featured {
+background: #333;
+color: #fff;
+}
+
 /* ABOUT */
 
 .row.about {
@@ -137,9 +144,18 @@ color: #fff;
 background: #347549; 
 }
 
-.row.characters {
-color: #333;
-background: #f7f1cf;
+/* PATREON */
+
+.row.patreon {
+color: #fff;
+background: orange; 
+}
+
+/* CONTACT */
+
+.row.contact {
+color: #fff;
+background: #777; 
 }
 
 /* ARCHIVE */
@@ -151,8 +167,11 @@ background: #e1e9ea;
 /* COPYRIGHT*/
 
 .row.copyright {
-padding: 20px 0;
-color: #fff;
+min-height: 50px;
+height: 50px;
+line-height: 50px;
+padding: 0;
+color: #333;
 }
 
 /* RESPONSIVE TWEAKS */
