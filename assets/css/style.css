@@ -1,21 +1,16 @@
 /* FOUNDATION */
 
 html {
-height: 100%;
 background: #fff url(/assets/img/t_000.png);
 }
 
 body {
-height: 100%;
 background: #fff;
 position: relative;
 padding-top: 60px;
 }
 
 .container-fluid { 
-min-height: 100%;
-height: auto;
-    
 }
 
 /* NAVIGATION */
@@ -48,8 +43,6 @@ position: relative;
 }
 
 .row.onepagestrip {
-min-height: 100%;
-height: auto;
 padding: 60px 0;
 }
 
@@ -63,8 +56,6 @@ height: auto;
 
 .comic {
 background: #fff;
-min-height: auto;
-height: auto;
 }
 
 .comic img {
