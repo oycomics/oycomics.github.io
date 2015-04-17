@@ -33,7 +33,7 @@ background: #333;
 
 .content {
 background: transparent;
-padding-top: 60px;
+border-top: 60px solid transparent;
 position: relative;
 overflow: hidden;
 }
