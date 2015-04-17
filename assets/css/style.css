@@ -52,12 +52,14 @@ padding: 60px 0;
 /* HOME */
 
 .home {
+height: auto;
 }
 
 /* COMIC */
 
 .comic {
 background: #fff;
+height: auto;
 }
 
 .comic img {
