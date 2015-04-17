@@ -131,16 +131,15 @@ background: #347549;
 }
 
 .row.characters {
-color: #333;
 padding: 0 0 20px;
-color: #fff;
+color: #333;
 background: #f7f1cf;
 }
 
 /* ARCHIVE */
 
 .row.comic-archive {
-background: #fff;
+background: #e1e9ea;
 }
 
 /* COPYRIGHT*/
