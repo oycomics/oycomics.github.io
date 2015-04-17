@@ -5,7 +5,7 @@ html {
 }
 
 body {
-  padding-top: 60px;
+
 }
 
 /* NAVIGATION */
@@ -32,6 +32,7 @@ background: #333;
 /* CONTENT */
 
 .content {
+border-top: 50px solid #999;
 position: relative;
 overflow: hidden;
 }
@@ -39,12 +40,6 @@ overflow: hidden;
 /* HOME */
 
 .home {
-}
-
-/* ARCHIVE */
-
-.archive {
- text-align: center;
 }
 
 /* COMIC */
@@ -126,6 +121,31 @@ font-size: 50px;
 .footer { background: #222; 
 padding-top: 20px;}
 
+/* ABOUT */
+
+.row.about {
+text-align: center;
+padding: 0 0 20px;
+color: #fff;
+background: #333;
+}
+
+/* ARCHIVE */
+
+.row.comic-archive {
+text-align: center;
+background: #fff;
+}
+
+/* COPYRIGHT*/
+
+.row.copyright {
+padding: 10px 0 0;
+text-align: center;
+color: #fff;
+}
+
+/* RESPONSIVE TWEAKS */
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
