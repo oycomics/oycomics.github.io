@@ -1,7 +1,7 @@
 /* FOUNDATION */
 
 html {
-  background: #fff url(/assets/img/t_000.png);
+background: #fff url(/assets/img/t_000.png);
 }
 
 body {
@@ -46,7 +46,6 @@ overflow: hidden;
 /* COMIC */
 
 .comic {
-  text-align: center;
 background: #fff;
 }
 
@@ -126,7 +125,6 @@ font-size: 50px;
 /* ABOUT */
 
 .row.about {
-text-align: center;
 padding: 0 0 20px;
 color: #fff;
 }
@@ -134,7 +132,6 @@ color: #fff;
 /* ARCHIVE */
 
 .row.comic-archive {
-text-align: center;
 background: #fff;
 }
 
@@ -142,7 +139,6 @@ background: #fff;
 
 .row.copyright {
 padding: 10px 0 0;
-text-align: center;
 color: #fff;
 }
 
