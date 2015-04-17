@@ -1,20 +1,19 @@
 /* FOUNDATION */
 
 html {
+height: 100%;
 background: #fff url(/assets/img/t_000.png);
 }
 
 body {
-
+height: 100%;
 background: #fff;
 position: relative;
 padding-top: 60px;
 }
 
-
-
-html, body, .container-fluid
-{ height: 100%;}
+.container-fluid
+{ min-height: 100%;}
 
 /* NAVIGATION */
 
