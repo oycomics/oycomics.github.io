@@ -13,6 +13,7 @@ padding-top: 60px;
 }
 
 .container-fluid { 
+position: relative;
 height: 100%;
 }
 
@@ -39,6 +40,16 @@ background: transparent url(/assets/img/t_000.png);
 background: #333;
 }*/
 
+a.large-section-link {
+z-index: 30;
+position: absolute;
+bottom: -15px;
+display: block;
+height: 30px;
+width: 100%;
+background: transparent url(/assets/img/t.png);
+}
+
 /* CONTENT */
 
 .content {
@@ -48,6 +59,7 @@ position: relative;
 }
 
 .row.onepagestrip {
+position: relative;
 padding-top: 60px;
 min-height: 100%;
 }
