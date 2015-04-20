@@ -44,13 +44,14 @@ background: #333;
 .content {
 background: #fff;
 position: relative;
-/*overflow: hidden;*/
+
 }
 
 .row.onepagestrip {
 padding-top: 60px;
 margin-bottom: -60px;
 height: 100%;
+overflow: hidden;
 }
 
 /* HOME */
