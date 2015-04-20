@@ -1,7 +1,7 @@
 #"WholeBuffalo" - an Oy Comics&trade; UI
 ###
 
-> GitHub Page + Jekyll + Bootstrap = Responsive theme for comics
+> GitHub Pages + Jekyll + Bootstrap = Responsive theme for comics
 
 ##Content
 
