@@ -1,19 +1,24 @@
 /* FOUNDATION */
 
 html {
-background: #fff url(/assets/img/t_000.png);
+height: 100%;
+background: #404040;
 }
 
 body {
+height: 100%;
 background: #fff;
 position: relative;
 padding-top: 60px;
 }
 
 .container-fluid { 
+height: 100%;
 }
 
 /* NAVIGATION */
+
+
 
 /*.navbar {
 background: transparent url(/assets/img/t_000.png);
@@ -44,6 +49,7 @@ position: relative;
 
 .row.onepagestrip {
 padding: 60px 0;
+min-height: 90%;
 }
 
 /* HOME */
@@ -135,7 +141,6 @@ font-size: 50px;
 /* FEATURED */
 
 .row.featured {
-height: auto;
 background: #333;
 color: #fff;
 }
@@ -170,6 +175,7 @@ background: #e1e9ea;
 /* COPYRIGHT*/
 
 .row.copyright {
+min-height: 50px;
 height: 50px;
 line-height: 50px;
 padding: 0;
