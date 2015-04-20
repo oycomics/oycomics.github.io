@@ -32,7 +32,7 @@ To get started you will need:
 * Optional: CloudFlare ( https://www.cloudflare.com ). I use this for page/image caching, DDOS protection, and other services. Your mileage may vary.
 * Also Optional: External image hosting source to keep the Git respository small (the limit is 1GB).
 
-###COMIC FORMAT EXAMPLES 
+###COMIC POST FORMAT EXAMPLES 
 
 ####FILENAME
 
