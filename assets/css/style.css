@@ -174,11 +174,6 @@ background: #e1e9ea url(/assets/img/bg_archive.jpg) no-repeat center;
 background-size: cover;
 }
 
-.row.comic-archive {
-text-shadow: 0 0 10px #f1f1f1;
-}
-
-
 /* COPYRIGHT*/
 
 .row.copyright {
