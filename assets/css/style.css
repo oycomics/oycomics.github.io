@@ -162,7 +162,8 @@ color: #fff;
 
 .row.about {
 color: #fff;
-background: #347549; 
+background: #347549 url(/assets/img/bg_about.png) no-repeat center;
+background-size: cover;
 }
 
 /* PATREON */
